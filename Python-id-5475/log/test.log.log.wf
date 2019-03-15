@@ -1,0 +1,9 @@
+WARNING - 15-11-16 14:52:23 - webpage_crawler.py - url error:javascript:location.href="page4.html" <urlopen error unknown url type: javascript>
+WARNING - 15-11-16 14:52:24 - webpage_crawler.py - url error:http://pycm.baidu.com:8081/1/page1_4.html HTTP Error 404: Not Found
+WARNING - 15-11-16 14:52:27 - webpage_crawler.py - url error:http://pycm.baidu.com:8081/1/page1_3.html HTTP Error 404: Not Found
+WARNING - 15-11-16 15:08:45 - webpage_crawler.py - url error:javascript:location.href="page4.html" <urlopen error unknown url type: javascript>
+WARNING - 15-11-16 15:08:46 - webpage_crawler.py - url error:http://pycm.baidu.com:8081/1/page1_4.html HTTP Error 404: Not Found
+WARNING - 15-11-16 15:08:49 - webpage_crawler.py - url error:http://pycm.baidu.com:8081/1/page1_3.html HTTP Error 404: Not Found
+WARNING - 15-11-16 16:48:44 - webpage_crawler.py - url error:javascript:location.href="page4.html" <urlopen error unknown url type: javascript>
+WARNING - 15-11-16 16:48:45 - webpage_crawler.py - url error:http://pycm.baidu.com:8081/1/page1_4.html HTTP Error 404: Not Found
+WARNING - 15-11-16 16:48:48 - webpage_crawler.py - url error:http://pycm.baidu.com:8081/1/page1_3.html HTTP Error 404: Not Found

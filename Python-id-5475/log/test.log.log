@@ -1,0 +1,801 @@
+INFO: 15-11-16 14:52:18: mini_spider.py:38 * 140110724949728 Init Mini_spider
+INFO: 15-11-16 14:52:18: mini_spider.py:137 * 140110724949728 begin to run...
+INFO: 15-11-16 14:52:18: mini_spider.py:46 * 140110724949728 init
+INFO: 15-11-16 14:52:18: mini_spider.py:48 * 140110724949728 read config file:spider.conf
+INFO: 15-11-16 14:52:18: mini_spider.py:67 * 140110724949728 init crawler.
+INFO: 15-11-16 14:52:18: mini_spider.py:70 * 140110724949728 init parser.
+INFO: 15-11-16 14:52:18: mini_spider.py:73 * 140110724949728 init saver.
+INFO: 15-11-16 14:52:18: mini_spider.py:76 * 140110724949728 init thread_pool.
+INFO: 15-11-16 14:52:18: url_table.py:53 * 1108724064 sort url list
+INFO: 15-11-16 14:52:18: webpage_crawler.py:39 * 1108724064 start get url:http://pycm.baidu.com:8081
+INFO: 15-11-16 14:52:18: webpage_parser.py:80 * 1108724064 this is domian url
+INFO: 15-11-16 14:52:18: webpage_parser.py:80 * 1108724064 this is domian url
+INFO: 15-11-16 14:52:18: webpage_parser.py:80 * 1108724064 this is domian url
+INFO: 15-11-16 14:52:18: webpage_parser.py:80 * 1108724064 this is domian url
+INFO: 15-11-16 14:52:18: webpage_parser.py:55 * 1108724064 len url: 5
+INFO: 15-11-16 14:52:18: webpage_saver.py:73 * 1108724064 cur url: http://pycm.baidu.com:8081
+INFO: 15-11-16 14:52:18: webpage_saver.py:107 * 1108724064 url: http://pycm.baidu.com:8081
+INFO: 15-11-16 14:52:18: webpage_saver.py:112 * 1108724064 transfer url:http$--pycm.baidu.com$8081
+INFO: 15-11-16 14:52:18: webpage_saver.py:86 * 1108724064 write file...
+INFO: 15-11-16 14:52:19: mini_spider.py:153 * 140110724949728 sleep: 1
+INFO: 15-11-16 14:52:19: thread_pool.py:83 * 140110724949728 have thread finish
+INFO: 15-11-16 14:52:19: url_table.py:53 * 1108724064 sort url list
+INFO: 15-11-16 14:52:19: webpage_crawler.py:39 * 1108724064 start get url:http://pycm.baidu.com:8081/page1.html
+INFO: 15-11-16 14:52:19: webpage_parser.py:55 * 1108724064 len url: 9
+INFO: 15-11-16 14:52:19: url_table.py:69 * 1108724064 url exits
+INFO: 15-11-16 14:52:19: url_table.py:69 * 1108724064 url exits
+INFO: 15-11-16 14:52:19: url_table.py:69 * 1108724064 url exits
+INFO: 15-11-16 14:52:19: url_table.py:69 * 1108724064 url exits
+INFO: 15-11-16 14:52:19: url_table.py:69 * 1108724064 url exits
+INFO: 15-11-16 14:52:19: webpage_saver.py:73 * 1108724064 cur url: http://pycm.baidu.com:8081/page1.html
+INFO: 15-11-16 14:52:19: webpage_saver.py:107 * 1108724064 url: http://pycm.baidu.com:8081/page1.html
+INFO: 15-11-16 14:52:19: webpage_saver.py:112 * 1108724064 transfer url:http$--pycm.baidu.com$8081-page1.html
+INFO: 15-11-16 14:52:19: webpage_saver.py:86 * 1108724064 write file...
+INFO: 15-11-16 14:52:20: mini_spider.py:153 * 140110724949728 sleep: 1
+INFO: 15-11-16 14:52:20: thread_pool.py:83 * 140110724949728 have thread finish
+INFO: 15-11-16 14:52:20: url_table.py:53 * 1108724064 sort url list
+INFO: 15-11-16 14:52:20: webpage_crawler.py:39 * 1108724064 start get url:http://pycm.baidu.com:8081/page2.html
+INFO: 15-11-16 14:52:20: webpage_parser.py:55 * 1108724064 len url: 11
+INFO: 15-11-16 14:52:20: url_table.py:69 * 1108724064 url exits
+INFO: 15-11-16 14:52:20: url_table.py:69 * 1108724064 url exits
+INFO: 15-11-16 14:52:20: url_table.py:69 * 1108724064 url exits
+INFO: 15-11-16 14:52:20: url_table.py:69 * 1108724064 url exits
+INFO: 15-11-16 14:52:20: url_table.py:69 * 1108724064 url exits
+INFO: 15-11-16 14:52:20: url_table.py:69 * 1108724064 url exits
+INFO: 15-11-16 14:52:20: url_table.py:69 * 1108724064 url exits
+INFO: 15-11-16 14:52:20: url_table.py:69 * 1108724064 url exits
+INFO: 15-11-16 14:52:20: url_table.py:69 * 1108724064 url exits
+INFO: 15-11-16 14:52:20: webpage_saver.py:73 * 1108724064 cur url: http://pycm.baidu.com:8081/page2.html
+INFO: 15-11-16 14:52:20: webpage_saver.py:107 * 1108724064 url: http://pycm.baidu.com:8081/page2.html
+INFO: 15-11-16 14:52:20: webpage_saver.py:112 * 1108724064 transfer url:http$--pycm.baidu.com$8081-page2.html
+INFO: 15-11-16 14:52:20: webpage_saver.py:86 * 1108724064 write file...
+INFO: 15-11-16 14:52:21: mini_spider.py:153 * 140110724949728 sleep: 1
+INFO: 15-11-16 14:52:21: thread_pool.py:83 * 140110724949728 have thread finish
+INFO: 15-11-16 14:52:21: url_table.py:53 * 1108724064 sort url list
+INFO: 15-11-16 14:52:21: webpage_crawler.py:39 * 1108724064 start get url:http://pycm.baidu.com:8081/page3.html
+INFO: 15-11-16 14:52:21: webpage_parser.py:55 * 1108724064 len url: 13
+INFO: 15-11-16 14:52:21: url_table.py:69 * 1108724064 url exits
+INFO: 15-11-16 14:52:21: url_table.py:69 * 1108724064 url exits
+INFO: 15-11-16 14:52:21: url_table.py:69 * 1108724064 url exits
+INFO: 15-11-16 14:52:21: url_table.py:69 * 1108724064 url exits
+INFO: 15-11-16 14:52:21: url_table.py:69 * 1108724064 url exits
+INFO: 15-11-16 14:52:21: url_table.py:69 * 1108724064 url exits
+INFO: 15-11-16 14:52:21: url_table.py:69 * 1108724064 url exits
+INFO: 15-11-16 14:52:21: url_table.py:69 * 1108724064 url exits
+INFO: 15-11-16 14:52:21: url_table.py:69 * 1108724064 url exits
+INFO: 15-11-16 14:52:21: url_table.py:69 * 1108724064 url exits
+INFO: 15-11-16 14:52:21: url_table.py:69 * 1108724064 url exits
+INFO: 15-11-16 14:52:21: webpage_saver.py:73 * 1108724064 cur url: http://pycm.baidu.com:8081/page3.html
+INFO: 15-11-16 14:52:21: webpage_saver.py:107 * 1108724064 url: http://pycm.baidu.com:8081/page3.html
+INFO: 15-11-16 14:52:21: webpage_saver.py:112 * 1108724064 transfer url:http$--pycm.baidu.com$8081-page3.html
+INFO: 15-11-16 14:52:21: webpage_saver.py:86 * 1108724064 write file...
+INFO: 15-11-16 14:52:22: mini_spider.py:153 * 140110724949728 sleep: 1
+INFO: 15-11-16 14:52:22: thread_pool.py:83 * 140110724949728 have thread finish
+INFO: 15-11-16 14:52:22: url_table.py:53 * 1108724064 sort url list
+INFO: 15-11-16 14:52:22: webpage_crawler.py:39 * 1108724064 start get url:http://pycm.baidu.com:8081/mirror/index.html
+INFO: 15-11-16 14:52:22: webpage_parser.py:55 * 1108724064 len url: 18
+INFO: 15-11-16 14:52:22: url_table.py:69 * 1108724064 url exits
+INFO: 15-11-16 14:52:22: url_table.py:69 * 1108724064 url exits
+INFO: 15-11-16 14:52:22: url_table.py:69 * 1108724064 url exits
+INFO: 15-11-16 14:52:22: url_table.py:69 * 1108724064 url exits
+INFO: 15-11-16 14:52:22: url_table.py:69 * 1108724064 url exits
+INFO: 15-11-16 14:52:22: url_table.py:69 * 1108724064 url exits
+INFO: 15-11-16 14:52:22: webpage_saver.py:73 * 1108724064 cur url: http://pycm.baidu.com:8081/mirror/index.html
+INFO: 15-11-16 14:52:22: webpage_saver.py:107 * 1108724064 url: http://pycm.baidu.com:8081/mirror/index.html
+INFO: 15-11-16 14:52:22: webpage_saver.py:112 * 1108724064 transfer url:http$--pycm.baidu.com$8081-mirror-index.html
+INFO: 15-11-16 14:52:22: webpage_saver.py:86 * 1108724064 write file...
+INFO: 15-11-16 14:52:23: mini_spider.py:153 * 140110724949728 sleep: 1
+INFO: 15-11-16 14:52:23: thread_pool.py:83 * 140110724949728 have thread finish
+INFO: 15-11-16 14:52:23: url_table.py:53 * 1108724064 sort url list
+INFO: 15-11-16 14:52:23: webpage_crawler.py:39 * 1108724064 start get url:javascript:location.href="page4.html"
+WARNING: 15-11-16 14:52:23: webpage_crawler.py:44 * 1108724064 url error:javascript:location.href="page4.html" <urlopen error unknown url type: javascript>
+INFO: 15-11-16 14:52:24: mini_spider.py:153 * 140110724949728 sleep: 1
+INFO: 15-11-16 14:52:24: thread_pool.py:83 * 140110724949728 have thread finish
+INFO: 15-11-16 14:52:24: url_table.py:53 * 1108724064 sort url list
+INFO: 15-11-16 14:52:24: webpage_crawler.py:39 * 1108724064 start get url:http://pycm.baidu.com:8081/1/page1_4.html
+WARNING: 15-11-16 14:52:24: webpage_crawler.py:44 * 1108724064 url error:http://pycm.baidu.com:8081/1/page1_4.html HTTP Error 404: Not Found
+INFO: 15-11-16 14:52:25: mini_spider.py:153 * 140110724949728 sleep: 1
+INFO: 15-11-16 14:52:25: thread_pool.py:83 * 140110724949728 have thread finish
+INFO: 15-11-16 14:52:25: url_table.py:53 * 1108724064 sort url list
+INFO: 15-11-16 14:52:25: webpage_crawler.py:39 * 1108724064 start get url:http://pycm.baidu.com:8081/1/page1_1.html
+INFO: 15-11-16 14:52:25: webpage_parser.py:55 * 1108724064 len url: 18
+INFO: 15-11-16 14:52:25: webpage_saver.py:73 * 1108724064 cur url: http://pycm.baidu.com:8081/1/page1_1.html
+INFO: 15-11-16 14:52:25: webpage_saver.py:107 * 1108724064 url: http://pycm.baidu.com:8081/1/page1_1.html
+INFO: 15-11-16 14:52:25: webpage_saver.py:112 * 1108724064 transfer url:http$--pycm.baidu.com$8081-1-page1_1.html
+INFO: 15-11-16 14:52:25: webpage_saver.py:86 * 1108724064 write file...
+INFO: 15-11-16 14:52:26: mini_spider.py:153 * 140110724949728 sleep: 1
+INFO: 15-11-16 14:52:26: thread_pool.py:83 * 140110724949728 have thread finish
+INFO: 15-11-16 14:52:26: url_table.py:53 * 1108724064 sort url list
+INFO: 15-11-16 14:52:26: webpage_crawler.py:39 * 1108724064 start get url:http://pycm.baidu.com:8081/1/page1_2.html
+INFO: 15-11-16 14:52:26: webpage_parser.py:55 * 1108724064 len url: 18
+INFO: 15-11-16 14:52:26: webpage_saver.py:73 * 1108724064 cur url: http://pycm.baidu.com:8081/1/page1_2.html
+INFO: 15-11-16 14:52:26: webpage_saver.py:107 * 1108724064 url: http://pycm.baidu.com:8081/1/page1_2.html
+INFO: 15-11-16 14:52:26: webpage_saver.py:112 * 1108724064 transfer url:http$--pycm.baidu.com$8081-1-page1_2.html
+INFO: 15-11-16 14:52:26: webpage_saver.py:86 * 1108724064 write file...
+INFO: 15-11-16 14:52:27: mini_spider.py:153 * 140110724949728 sleep: 1
+INFO: 15-11-16 14:52:27: thread_pool.py:83 * 140110724949728 have thread finish
+INFO: 15-11-16 14:52:27: url_table.py:53 * 1108724064 sort url list
+INFO: 15-11-16 14:52:27: webpage_crawler.py:39 * 1108724064 start get url:http://pycm.baidu.com:8081/1/page1_3.html
+WARNING: 15-11-16 14:52:27: webpage_crawler.py:44 * 1108724064 url error:http://pycm.baidu.com:8081/1/page1_3.html HTTP Error 404: Not Found
+INFO: 15-11-16 14:52:28: mini_spider.py:153 * 140110724949728 sleep: 1
+INFO: 15-11-16 14:52:28: thread_pool.py:83 * 140110724949728 have thread finish
+INFO: 15-11-16 14:52:28: url_table.py:53 * 1108724064 sort url list
+INFO: 15-11-16 14:52:28: webpage_crawler.py:39 * 1108724064 start get url:http://pycm.baidu.com:8081/page2_1.html
+INFO: 15-11-16 14:52:28: webpage_parser.py:55 * 1108724064 len url: 19
+INFO: 15-11-16 14:52:28: webpage_saver.py:73 * 1108724064 cur url: http://pycm.baidu.com:8081/page2_1.html
+INFO: 15-11-16 14:52:28: webpage_saver.py:107 * 1108724064 url: http://pycm.baidu.com:8081/page2_1.html
+INFO: 15-11-16 14:52:28: webpage_saver.py:112 * 1108724064 transfer url:http$--pycm.baidu.com$8081-page2_1.html
+INFO: 15-11-16 14:52:28: webpage_saver.py:86 * 1108724064 write file...
+INFO: 15-11-16 14:52:29: mini_spider.py:153 * 140110724949728 sleep: 1
+INFO: 15-11-16 14:52:29: thread_pool.py:83 * 140110724949728 have thread finish
+INFO: 15-11-16 14:52:29: url_table.py:53 * 1108724064 sort url list
+INFO: 15-11-16 14:52:29: webpage_crawler.py:39 * 1108724064 start get url:http://pycm.baidu.com:8081/2/index.html
+INFO: 15-11-16 14:52:29: webpage_parser.py:55 * 1108724064 len url: 21
+INFO: 15-11-16 14:52:29: webpage_saver.py:73 * 1108724064 cur url: http://pycm.baidu.com:8081/2/index.html
+INFO: 15-11-16 14:52:29: webpage_saver.py:107 * 1108724064 url: http://pycm.baidu.com:8081/2/index.html
+INFO: 15-11-16 14:52:29: webpage_saver.py:112 * 1108724064 transfer url:http$--pycm.baidu.com$8081-2-index.html
+INFO: 15-11-16 14:52:29: webpage_saver.py:86 * 1108724064 write file...
+INFO: 15-11-16 14:52:30: mini_spider.py:153 * 140110724949728 sleep: 1
+INFO: 15-11-16 14:52:30: thread_pool.py:83 * 140110724949728 have thread finish
+INFO: 15-11-16 14:52:30: url_table.py:53 * 1108724064 sort url list
+INFO: 15-11-16 14:52:30: webpage_crawler.py:39 * 1108724064 start get url:http://pycm.baidu.com:8081/3/page3_1.html
+INFO: 15-11-16 14:52:30: webpage_parser.py:55 * 1108724064 len url: 23
+INFO: 15-11-16 14:52:30: webpage_saver.py:73 * 1108724064 cur url: http://pycm.baidu.com:8081/3/page3_1.html
+INFO: 15-11-16 14:52:30: webpage_saver.py:107 * 1108724064 url: http://pycm.baidu.com:8081/3/page3_1.html
+INFO: 15-11-16 14:52:30: webpage_saver.py:112 * 1108724064 transfer url:http$--pycm.baidu.com$8081-3-page3_1.html
+INFO: 15-11-16 14:52:30: webpage_saver.py:86 * 1108724064 write file...
+INFO: 15-11-16 14:52:31: mini_spider.py:153 * 140110724949728 sleep: 1
+INFO: 15-11-16 14:52:31: thread_pool.py:83 * 140110724949728 have thread finish
+INFO: 15-11-16 14:52:31: url_table.py:53 * 1108724064 sort url list
+INFO: 15-11-16 14:52:31: webpage_crawler.py:39 * 1108724064 start get url:http://pycm.baidu.com:8081/3/page3_4.html
+INFO: 15-11-16 14:52:31: webpage_parser.py:55 * 1108724064 len url: 25
+INFO: 15-11-16 14:52:31: webpage_saver.py:73 * 1108724064 cur url: http://pycm.baidu.com:8081/3/page3_4.html
+INFO: 15-11-16 14:52:31: webpage_saver.py:107 * 1108724064 url: http://pycm.baidu.com:8081/3/page3_4.html
+INFO: 15-11-16 14:52:31: webpage_saver.py:112 * 1108724064 transfer url:http$--pycm.baidu.com$8081-3-page3_4.html
+INFO: 15-11-16 14:52:31: webpage_saver.py:86 * 1108724064 write file...
+INFO: 15-11-16 14:52:32: mini_spider.py:153 * 140110724949728 sleep: 1
+INFO: 15-11-16 14:52:32: thread_pool.py:83 * 140110724949728 have thread finish
+INFO: 15-11-16 14:52:32: url_table.py:53 * 1108724064 sort url list
+INFO: 15-11-16 14:52:32: webpage_crawler.py:39 * 1108724064 start get url:http://pycm.baidu.com:8081/mirror/page1.html
+INFO: 15-11-16 14:52:32: webpage_parser.py:55 * 1108724064 len url: 30
+INFO: 15-11-16 14:52:32: webpage_saver.py:73 * 1108724064 cur url: http://pycm.baidu.com:8081/mirror/page1.html
+INFO: 15-11-16 14:52:32: webpage_saver.py:107 * 1108724064 url: http://pycm.baidu.com:8081/mirror/page1.html
+INFO: 15-11-16 14:52:32: webpage_saver.py:112 * 1108724064 transfer url:http$--pycm.baidu.com$8081-mirror-page1.html
+INFO: 15-11-16 14:52:32: webpage_saver.py:86 * 1108724064 write file...
+INFO: 15-11-16 14:52:33: mini_spider.py:153 * 140110724949728 sleep: 1
+INFO: 15-11-16 14:52:33: thread_pool.py:83 * 140110724949728 have thread finish
+INFO: 15-11-16 14:52:33: url_table.py:53 * 1108724064 sort url list
+INFO: 15-11-16 14:52:33: webpage_crawler.py:39 * 1108724064 start get url:http://pycm.baidu.com:8081/mirror/page2.html
+INFO: 15-11-16 14:52:33: webpage_parser.py:55 * 1108724064 len url: 35
+INFO: 15-11-16 14:52:33: webpage_saver.py:73 * 1108724064 cur url: http://pycm.baidu.com:8081/mirror/page2.html
+INFO: 15-11-16 14:52:33: webpage_saver.py:107 * 1108724064 url: http://pycm.baidu.com:8081/mirror/page2.html
+INFO: 15-11-16 14:52:33: webpage_saver.py:112 * 1108724064 transfer url:http$--pycm.baidu.com$8081-mirror-page2.html
+INFO: 15-11-16 14:52:33: webpage_saver.py:86 * 1108724064 write file...
+INFO: 15-11-16 14:52:34: mini_spider.py:153 * 140110724949728 sleep: 1
+INFO: 15-11-16 14:52:34: thread_pool.py:83 * 140110724949728 have thread finish
+INFO: 15-11-16 14:52:34: url_table.py:53 * 1108724064 sort url list
+INFO: 15-11-16 14:52:34: webpage_crawler.py:39 * 1108724064 start get url:http://pycm.baidu.com:8081/mirror/page3.html
+INFO: 15-11-16 14:52:34: webpage_parser.py:55 * 1108724064 len url: 40
+INFO: 15-11-16 14:52:34: webpage_saver.py:73 * 1108724064 cur url: http://pycm.baidu.com:8081/mirror/page3.html
+INFO: 15-11-16 14:52:34: webpage_saver.py:107 * 1108724064 url: http://pycm.baidu.com:8081/mirror/page3.html
+INFO: 15-11-16 14:52:34: webpage_saver.py:112 * 1108724064 transfer url:http$--pycm.baidu.com$8081-mirror-page3.html
+INFO: 15-11-16 14:52:34: webpage_saver.py:86 * 1108724064 write file...
+INFO: 15-11-16 14:52:35: mini_spider.py:153 * 140110724949728 sleep: 1
+INFO: 15-11-16 14:52:35: thread_pool.py:83 * 140110724949728 have thread finish
+INFO: 15-11-16 14:52:35: url_table.py:53 * 1108724064 sort url list
+INFO: 15-11-16 14:52:35: webpage_crawler.py:39 * 1108724064 start get url:http://pycm.baidu.com:8081/mirror/mirror/index.html
+INFO: 15-11-16 14:52:35: webpage_parser.py:55 * 1108724064 len url: 45
+INFO: 15-11-16 14:52:35: webpage_saver.py:73 * 1108724064 cur url: http://pycm.baidu.com:8081/mirror/mirror/index.html
+INFO: 15-11-16 14:52:35: webpage_saver.py:107 * 1108724064 url: http://pycm.baidu.com:8081/mirror/mirror/index.html
+INFO: 15-11-16 14:52:35: webpage_saver.py:112 * 1108724064 transfer url:http$--pycm.baidu.com$8081-mirror-mirror-index.html
+INFO: 15-11-16 14:52:35: webpage_saver.py:86 * 1108724064 write file...
+INFO: 15-11-16 14:52:36: mini_spider.py:153 * 140110724949728 sleep: 1
+INFO: 15-11-16 14:52:36: thread_pool.py:83 * 140110724949728 have thread finish
+INFO: 15-11-16 14:52:36: url_table.py:53 * 1108724064 sort url list
+INFO: 15-11-16 14:52:36: webpage_crawler.py:39 * 1108724064 start get url:http://pycm.baidu.com:8081/mirror/1/page1_4.html
+INFO: 15-11-16 14:52:36: webpage_parser.py:55 * 1108724064 len url: 50
+INFO: 15-11-16 14:52:36: webpage_saver.py:73 * 1108724064 cur url: http://pycm.baidu.com:8081/mirror/1/page1_4.html
+INFO: 15-11-16 14:52:36: webpage_saver.py:107 * 1108724064 url: http://pycm.baidu.com:8081/mirror/1/page1_4.html
+INFO: 15-11-16 14:52:36: webpage_saver.py:112 * 1108724064 transfer url:http$--pycm.baidu.com$8081-mirror-1-page1_4.html
+INFO: 15-11-16 14:52:36: webpage_saver.py:86 * 1108724064 write file...
+INFO: 15-11-16 14:52:37: mini_spider.py:153 * 140110724949728 sleep: 1
+INFO: 15-11-16 14:52:37: thread_pool.py:83 * 140110724949728 have thread finish
+INFO: 15-11-16 14:52:37: url_table.py:53 * 1108724064 sort url list
+INFO: 15-11-16 14:52:37: webpage_crawler.py:39 * 1108724064 start get url:http://pycm.baidu.com:8081/mirror/1/page1_1.html
+INFO: 15-11-16 14:52:37: webpage_parser.py:55 * 1108724064 len url: 55
+INFO: 15-11-16 14:52:37: webpage_saver.py:73 * 1108724064 cur url: http://pycm.baidu.com:8081/mirror/1/page1_1.html
+INFO: 15-11-16 14:52:37: webpage_saver.py:107 * 1108724064 url: http://pycm.baidu.com:8081/mirror/1/page1_1.html
+INFO: 15-11-16 14:52:37: webpage_saver.py:112 * 1108724064 transfer url:http$--pycm.baidu.com$8081-mirror-1-page1_1.html
+INFO: 15-11-16 14:52:37: webpage_saver.py:86 * 1108724064 write file...
+INFO: 15-11-16 14:52:38: mini_spider.py:153 * 140110724949728 sleep: 1
+INFO: 15-11-16 14:52:38: thread_pool.py:83 * 140110724949728 have thread finish
+INFO: 15-11-16 14:52:38: url_table.py:53 * 1108724064 sort url list
+INFO: 15-11-16 14:52:38: webpage_crawler.py:39 * 1108724064 start get url:http://pycm.baidu.com:8081/mirror/1/page1_2.html
+INFO: 15-11-16 14:52:38: webpage_parser.py:55 * 1108724064 len url: 60
+INFO: 15-11-16 14:52:38: webpage_saver.py:73 * 1108724064 cur url: http://pycm.baidu.com:8081/mirror/1/page1_2.html
+INFO: 15-11-16 14:52:38: webpage_saver.py:107 * 1108724064 url: http://pycm.baidu.com:8081/mirror/1/page1_2.html
+INFO: 15-11-16 14:52:38: webpage_saver.py:112 * 1108724064 transfer url:http$--pycm.baidu.com$8081-mirror-1-page1_2.html
+INFO: 15-11-16 14:52:38: webpage_saver.py:86 * 1108724064 write file...
+INFO: 15-11-16 14:52:39: mini_spider.py:153 * 140110724949728 sleep: 1
+INFO: 15-11-16 14:52:39: thread_pool.py:83 * 140110724949728 have thread finish
+INFO: 15-11-16 14:52:39: url_table.py:53 * 1108724064 sort url list
+INFO: 15-11-16 14:52:39: webpage_crawler.py:39 * 1108724064 start get url:http://pycm.baidu.com:8081/mirror/1/page1_3.html
+INFO: 15-11-16 14:52:39: webpage_parser.py:55 * 1108724064 len url: 65
+INFO: 15-11-16 14:52:39: webpage_saver.py:73 * 1108724064 cur url: http://pycm.baidu.com:8081/mirror/1/page1_3.html
+INFO: 15-11-16 14:52:39: webpage_saver.py:107 * 1108724064 url: http://pycm.baidu.com:8081/mirror/1/page1_3.html
+INFO: 15-11-16 14:52:39: webpage_saver.py:112 * 1108724064 transfer url:http$--pycm.baidu.com$8081-mirror-1-page1_3.html
+INFO: 15-11-16 14:52:39: webpage_saver.py:86 * 1108724064 write file...
+INFO: 15-11-16 14:52:40: mini_spider.py:153 * 140110724949728 sleep: 1
+INFO: 15-11-16 14:52:40: thread_pool.py:83 * 140110724949728 have thread finish
+INFO: 15-11-16 14:52:40: url_table.py:53 * 1108724064 sort url list
+INFO: 15-11-16 14:52:40: webpage_crawler.py:39 * 1108724064 start get url:http://pycm.baidu.com:8081/mirror/page2_1.html
+INFO: 15-11-16 14:52:40: webpage_parser.py:55 * 1108724064 len url: 70
+INFO: 15-11-16 14:52:40: webpage_saver.py:73 * 1108724064 cur url: http://pycm.baidu.com:8081/mirror/page2_1.html
+INFO: 15-11-16 14:52:40: webpage_saver.py:107 * 1108724064 url: http://pycm.baidu.com:8081/mirror/page2_1.html
+INFO: 15-11-16 14:52:40: webpage_saver.py:112 * 1108724064 transfer url:http$--pycm.baidu.com$8081-mirror-page2_1.html
+INFO: 15-11-16 14:52:40: webpage_saver.py:86 * 1108724064 write file...
+INFO: 15-11-16 14:52:41: mini_spider.py:153 * 140110724949728 sleep: 1
+INFO: 15-11-16 14:52:41: thread_pool.py:83 * 140110724949728 have thread finish
+INFO: 15-11-16 14:52:41: url_table.py:53 * 1108724064 sort url list
+INFO: 15-11-16 14:52:41: webpage_crawler.py:39 * 1108724064 start get url:http://pycm.baidu.com:8081/mirror/2/index.html
+INFO: 15-11-16 14:52:41: webpage_parser.py:55 * 1108724064 len url: 75
+INFO: 15-11-16 14:52:41: webpage_saver.py:73 * 1108724064 cur url: http://pycm.baidu.com:8081/mirror/2/index.html
+INFO: 15-11-16 14:52:41: webpage_saver.py:107 * 1108724064 url: http://pycm.baidu.com:8081/mirror/2/index.html
+INFO: 15-11-16 14:52:41: webpage_saver.py:112 * 1108724064 transfer url:http$--pycm.baidu.com$8081-mirror-2-index.html
+INFO: 15-11-16 14:52:41: webpage_saver.py:86 * 1108724064 write file...
+INFO: 15-11-16 14:52:42: mini_spider.py:153 * 140110724949728 sleep: 1
+INFO: 15-11-16 14:52:42: thread_pool.py:83 * 140110724949728 have thread finish
+INFO: 15-11-16 14:52:42: url_table.py:53 * 1108724064 sort url list
+INFO: 15-11-16 14:52:42: webpage_crawler.py:39 * 1108724064 start get url:http://pycm.baidu.com:8081/mirror/3/page3_1.html
+INFO: 15-11-16 14:52:42: webpage_parser.py:55 * 1108724064 len url: 80
+INFO: 15-11-16 14:52:42: webpage_saver.py:73 * 1108724064 cur url: http://pycm.baidu.com:8081/mirror/3/page3_1.html
+INFO: 15-11-16 14:52:42: webpage_saver.py:107 * 1108724064 url: http://pycm.baidu.com:8081/mirror/3/page3_1.html
+INFO: 15-11-16 14:52:42: webpage_saver.py:112 * 1108724064 transfer url:http$--pycm.baidu.com$8081-mirror-3-page3_1.html
+INFO: 15-11-16 14:52:42: webpage_saver.py:86 * 1108724064 write file...
+INFO: 15-11-16 14:52:43: mini_spider.py:153 * 140110724949728 sleep: 1
+INFO: 15-11-16 14:52:43: thread_pool.py:83 * 140110724949728 have thread finish
+INFO: 15-11-16 14:52:43: url_table.py:53 * 1108724064 sort url list
+INFO: 15-11-16 14:52:43: webpage_crawler.py:39 * 1108724064 start get url:http://pycm.baidu.com:8081/mirror/3/page3_4.html
+INFO: 15-11-16 14:52:43: webpage_parser.py:55 * 1108724064 len url: 85
+INFO: 15-11-16 14:52:43: webpage_saver.py:73 * 1108724064 cur url: http://pycm.baidu.com:8081/mirror/3/page3_4.html
+INFO: 15-11-16 14:52:43: webpage_saver.py:107 * 1108724064 url: http://pycm.baidu.com:8081/mirror/3/page3_4.html
+INFO: 15-11-16 14:52:43: webpage_saver.py:112 * 1108724064 transfer url:http$--pycm.baidu.com$8081-mirror-3-page3_4.html
+INFO: 15-11-16 14:52:43: webpage_saver.py:86 * 1108724064 write file...
+INFO: 15-11-16 14:52:44: mini_spider.py:153 * 140110724949728 sleep: 1
+INFO: 15-11-16 14:52:44: thread_pool.py:83 * 140110724949728 have thread finish
+INFO: 15-11-16 14:52:44: mini_spider.py:128 * 140110724949728 finish
+INFO: 15-11-16 14:52:44: mini_spider.py:148 * 140110724949728 spider end
+INFO: 15-11-16 15:08:40: mini_spider.py:38 * 140489202366176 Init Mini_spider
+INFO: 15-11-16 15:08:40: mini_spider.py:137 * 140489202366176 begin to run...
+INFO: 15-11-16 15:08:40: mini_spider.py:46 * 140489202366176 init
+INFO: 15-11-16 15:08:40: mini_spider.py:48 * 140489202366176 read config file:spider.conf
+INFO: 15-11-16 15:08:40: mini_spider.py:67 * 140489202366176 init crawler.
+INFO: 15-11-16 15:08:40: mini_spider.py:70 * 140489202366176 init parser.
+INFO: 15-11-16 15:08:40: mini_spider.py:73 * 140489202366176 init saver.
+INFO: 15-11-16 15:08:40: mini_spider.py:76 * 140489202366176 init thread_pool.
+INFO: 15-11-16 15:08:40: url_table.py:53 * 1106671968 sort url list
+INFO: 15-11-16 15:08:40: webpage_crawler.py:39 * 1106671968 start get url:http://pycm.baidu.com:8081
+INFO: 15-11-16 15:08:40: webpage_parser.py:80 * 1106671968 this is domian url
+INFO: 15-11-16 15:08:40: webpage_parser.py:80 * 1106671968 this is domian url
+INFO: 15-11-16 15:08:40: webpage_parser.py:80 * 1106671968 this is domian url
+INFO: 15-11-16 15:08:40: webpage_parser.py:80 * 1106671968 this is domian url
+INFO: 15-11-16 15:08:40: webpage_parser.py:55 * 1106671968 len url: 5
+INFO: 15-11-16 15:08:40: webpage_saver.py:73 * 1106671968 cur url: http://pycm.baidu.com:8081
+INFO: 15-11-16 15:08:40: webpage_saver.py:107 * 1106671968 url: http://pycm.baidu.com:8081
+INFO: 15-11-16 15:08:40: webpage_saver.py:112 * 1106671968 transfer url:http$--pycm.baidu.com$8081
+INFO: 15-11-16 15:08:40: webpage_saver.py:86 * 1106671968 write file...
+INFO: 15-11-16 15:08:41: mini_spider.py:153 * 140489202366176 sleep: 1
+INFO: 15-11-16 15:08:41: thread_pool.py:83 * 140489202366176 have thread finish
+INFO: 15-11-16 15:08:41: url_table.py:53 * 1106671968 sort url list
+INFO: 15-11-16 15:08:41: webpage_crawler.py:39 * 1106671968 start get url:http://pycm.baidu.com:8081/page1.html
+INFO: 15-11-16 15:08:41: webpage_parser.py:55 * 1106671968 len url: 9
+INFO: 15-11-16 15:08:41: url_table.py:69 * 1106671968 url exits
+INFO: 15-11-16 15:08:41: url_table.py:69 * 1106671968 url exits
+INFO: 15-11-16 15:08:41: url_table.py:69 * 1106671968 url exits
+INFO: 15-11-16 15:08:41: url_table.py:69 * 1106671968 url exits
+INFO: 15-11-16 15:08:41: url_table.py:69 * 1106671968 url exits
+INFO: 15-11-16 15:08:41: webpage_saver.py:73 * 1106671968 cur url: http://pycm.baidu.com:8081/page1.html
+INFO: 15-11-16 15:08:41: webpage_saver.py:107 * 1106671968 url: http://pycm.baidu.com:8081/page1.html
+INFO: 15-11-16 15:08:41: webpage_saver.py:112 * 1106671968 transfer url:http$--pycm.baidu.com$8081-page1.html
+INFO: 15-11-16 15:08:41: webpage_saver.py:86 * 1106671968 write file...
+INFO: 15-11-16 15:08:42: mini_spider.py:153 * 140489202366176 sleep: 1
+INFO: 15-11-16 15:08:42: thread_pool.py:83 * 140489202366176 have thread finish
+INFO: 15-11-16 15:08:42: url_table.py:53 * 1106671968 sort url list
+INFO: 15-11-16 15:08:42: webpage_crawler.py:39 * 1106671968 start get url:http://pycm.baidu.com:8081/page2.html
+INFO: 15-11-16 15:08:42: webpage_parser.py:55 * 1106671968 len url: 11
+INFO: 15-11-16 15:08:42: url_table.py:69 * 1106671968 url exits
+INFO: 15-11-16 15:08:42: url_table.py:69 * 1106671968 url exits
+INFO: 15-11-16 15:08:42: url_table.py:69 * 1106671968 url exits
+INFO: 15-11-16 15:08:42: url_table.py:69 * 1106671968 url exits
+INFO: 15-11-16 15:08:42: url_table.py:69 * 1106671968 url exits
+INFO: 15-11-16 15:08:42: url_table.py:69 * 1106671968 url exits
+INFO: 15-11-16 15:08:42: url_table.py:69 * 1106671968 url exits
+INFO: 15-11-16 15:08:42: url_table.py:69 * 1106671968 url exits
+INFO: 15-11-16 15:08:42: url_table.py:69 * 1106671968 url exits
+INFO: 15-11-16 15:08:42: webpage_saver.py:73 * 1106671968 cur url: http://pycm.baidu.com:8081/page2.html
+INFO: 15-11-16 15:08:42: webpage_saver.py:107 * 1106671968 url: http://pycm.baidu.com:8081/page2.html
+INFO: 15-11-16 15:08:42: webpage_saver.py:112 * 1106671968 transfer url:http$--pycm.baidu.com$8081-page2.html
+INFO: 15-11-16 15:08:42: webpage_saver.py:86 * 1106671968 write file...
+INFO: 15-11-16 15:08:43: mini_spider.py:153 * 140489202366176 sleep: 1
+INFO: 15-11-16 15:08:43: thread_pool.py:83 * 140489202366176 have thread finish
+INFO: 15-11-16 15:08:43: url_table.py:53 * 1106671968 sort url list
+INFO: 15-11-16 15:08:43: webpage_crawler.py:39 * 1106671968 start get url:http://pycm.baidu.com:8081/page3.html
+INFO: 15-11-16 15:08:43: webpage_parser.py:55 * 1106671968 len url: 13
+INFO: 15-11-16 15:08:43: url_table.py:69 * 1106671968 url exits
+INFO: 15-11-16 15:08:43: url_table.py:69 * 1106671968 url exits
+INFO: 15-11-16 15:08:43: url_table.py:69 * 1106671968 url exits
+INFO: 15-11-16 15:08:43: url_table.py:69 * 1106671968 url exits
+INFO: 15-11-16 15:08:43: url_table.py:69 * 1106671968 url exits
+INFO: 15-11-16 15:08:43: url_table.py:69 * 1106671968 url exits
+INFO: 15-11-16 15:08:43: url_table.py:69 * 1106671968 url exits
+INFO: 15-11-16 15:08:43: url_table.py:69 * 1106671968 url exits
+INFO: 15-11-16 15:08:43: url_table.py:69 * 1106671968 url exits
+INFO: 15-11-16 15:08:43: url_table.py:69 * 1106671968 url exits
+INFO: 15-11-16 15:08:43: url_table.py:69 * 1106671968 url exits
+INFO: 15-11-16 15:08:43: webpage_saver.py:73 * 1106671968 cur url: http://pycm.baidu.com:8081/page3.html
+INFO: 15-11-16 15:08:43: webpage_saver.py:107 * 1106671968 url: http://pycm.baidu.com:8081/page3.html
+INFO: 15-11-16 15:08:43: webpage_saver.py:112 * 1106671968 transfer url:http$--pycm.baidu.com$8081-page3.html
+INFO: 15-11-16 15:08:43: webpage_saver.py:86 * 1106671968 write file...
+INFO: 15-11-16 15:08:44: mini_spider.py:153 * 140489202366176 sleep: 1
+INFO: 15-11-16 15:08:44: thread_pool.py:83 * 140489202366176 have thread finish
+INFO: 15-11-16 15:08:44: url_table.py:53 * 1106671968 sort url list
+INFO: 15-11-16 15:08:44: webpage_crawler.py:39 * 1106671968 start get url:http://pycm.baidu.com:8081/mirror/index.html
+INFO: 15-11-16 15:08:44: webpage_parser.py:55 * 1106671968 len url: 18
+INFO: 15-11-16 15:08:44: url_table.py:69 * 1106671968 url exits
+INFO: 15-11-16 15:08:44: url_table.py:69 * 1106671968 url exits
+INFO: 15-11-16 15:08:44: url_table.py:69 * 1106671968 url exits
+INFO: 15-11-16 15:08:44: url_table.py:69 * 1106671968 url exits
+INFO: 15-11-16 15:08:44: url_table.py:69 * 1106671968 url exits
+INFO: 15-11-16 15:08:44: url_table.py:69 * 1106671968 url exits
+INFO: 15-11-16 15:08:44: webpage_saver.py:73 * 1106671968 cur url: http://pycm.baidu.com:8081/mirror/index.html
+INFO: 15-11-16 15:08:44: webpage_saver.py:107 * 1106671968 url: http://pycm.baidu.com:8081/mirror/index.html
+INFO: 15-11-16 15:08:44: webpage_saver.py:112 * 1106671968 transfer url:http$--pycm.baidu.com$8081-mirror-index.html
+INFO: 15-11-16 15:08:44: webpage_saver.py:86 * 1106671968 write file...
+INFO: 15-11-16 15:08:45: mini_spider.py:153 * 140489202366176 sleep: 1
+INFO: 15-11-16 15:08:45: thread_pool.py:83 * 140489202366176 have thread finish
+INFO: 15-11-16 15:08:45: url_table.py:53 * 1106671968 sort url list
+INFO: 15-11-16 15:08:45: webpage_crawler.py:39 * 1106671968 start get url:javascript:location.href="page4.html"
+WARNING: 15-11-16 15:08:45: webpage_crawler.py:44 * 1106671968 url error:javascript:location.href="page4.html" <urlopen error unknown url type: javascript>
+INFO: 15-11-16 15:08:46: mini_spider.py:153 * 140489202366176 sleep: 1
+INFO: 15-11-16 15:08:46: thread_pool.py:83 * 140489202366176 have thread finish
+INFO: 15-11-16 15:08:46: url_table.py:53 * 1106671968 sort url list
+INFO: 15-11-16 15:08:46: webpage_crawler.py:39 * 1106671968 start get url:http://pycm.baidu.com:8081/1/page1_4.html
+WARNING: 15-11-16 15:08:46: webpage_crawler.py:44 * 1106671968 url error:http://pycm.baidu.com:8081/1/page1_4.html HTTP Error 404: Not Found
+INFO: 15-11-16 15:08:47: mini_spider.py:153 * 140489202366176 sleep: 1
+INFO: 15-11-16 15:08:47: thread_pool.py:83 * 140489202366176 have thread finish
+INFO: 15-11-16 15:08:47: url_table.py:53 * 1106671968 sort url list
+INFO: 15-11-16 15:08:47: webpage_crawler.py:39 * 1106671968 start get url:http://pycm.baidu.com:8081/1/page1_1.html
+INFO: 15-11-16 15:08:47: webpage_parser.py:55 * 1106671968 len url: 18
+INFO: 15-11-16 15:08:47: webpage_saver.py:73 * 1106671968 cur url: http://pycm.baidu.com:8081/1/page1_1.html
+INFO: 15-11-16 15:08:47: webpage_saver.py:107 * 1106671968 url: http://pycm.baidu.com:8081/1/page1_1.html
+INFO: 15-11-16 15:08:47: webpage_saver.py:112 * 1106671968 transfer url:http$--pycm.baidu.com$8081-1-page1_1.html
+INFO: 15-11-16 15:08:47: webpage_saver.py:86 * 1106671968 write file...
+INFO: 15-11-16 15:08:48: mini_spider.py:153 * 140489202366176 sleep: 1
+INFO: 15-11-16 15:08:48: thread_pool.py:83 * 140489202366176 have thread finish
+INFO: 15-11-16 15:08:48: url_table.py:53 * 1106671968 sort url list
+INFO: 15-11-16 15:08:48: webpage_crawler.py:39 * 1106671968 start get url:http://pycm.baidu.com:8081/1/page1_2.html
+INFO: 15-11-16 15:08:48: webpage_parser.py:55 * 1106671968 len url: 18
+INFO: 15-11-16 15:08:48: webpage_saver.py:73 * 1106671968 cur url: http://pycm.baidu.com:8081/1/page1_2.html
+INFO: 15-11-16 15:08:48: webpage_saver.py:107 * 1106671968 url: http://pycm.baidu.com:8081/1/page1_2.html
+INFO: 15-11-16 15:08:48: webpage_saver.py:112 * 1106671968 transfer url:http$--pycm.baidu.com$8081-1-page1_2.html
+INFO: 15-11-16 15:08:48: webpage_saver.py:86 * 1106671968 write file...
+INFO: 15-11-16 15:08:49: mini_spider.py:153 * 140489202366176 sleep: 1
+INFO: 15-11-16 15:08:49: thread_pool.py:83 * 140489202366176 have thread finish
+INFO: 15-11-16 15:08:49: url_table.py:53 * 1106671968 sort url list
+INFO: 15-11-16 15:08:49: webpage_crawler.py:39 * 1106671968 start get url:http://pycm.baidu.com:8081/1/page1_3.html
+WARNING: 15-11-16 15:08:49: webpage_crawler.py:44 * 1106671968 url error:http://pycm.baidu.com:8081/1/page1_3.html HTTP Error 404: Not Found
+INFO: 15-11-16 15:08:50: mini_spider.py:153 * 140489202366176 sleep: 1
+INFO: 15-11-16 15:08:50: thread_pool.py:83 * 140489202366176 have thread finish
+INFO: 15-11-16 15:08:50: url_table.py:53 * 1106671968 sort url list
+INFO: 15-11-16 15:08:50: webpage_crawler.py:39 * 1106671968 start get url:http://pycm.baidu.com:8081/page2_1.html
+INFO: 15-11-16 15:08:50: webpage_parser.py:55 * 1106671968 len url: 19
+INFO: 15-11-16 15:08:50: webpage_saver.py:73 * 1106671968 cur url: http://pycm.baidu.com:8081/page2_1.html
+INFO: 15-11-16 15:08:50: webpage_saver.py:107 * 1106671968 url: http://pycm.baidu.com:8081/page2_1.html
+INFO: 15-11-16 15:08:50: webpage_saver.py:112 * 1106671968 transfer url:http$--pycm.baidu.com$8081-page2_1.html
+INFO: 15-11-16 15:08:50: webpage_saver.py:86 * 1106671968 write file...
+INFO: 15-11-16 15:08:51: mini_spider.py:153 * 140489202366176 sleep: 1
+INFO: 15-11-16 15:08:51: thread_pool.py:83 * 140489202366176 have thread finish
+INFO: 15-11-16 15:08:51: url_table.py:53 * 1106671968 sort url list
+INFO: 15-11-16 15:08:51: webpage_crawler.py:39 * 1106671968 start get url:http://pycm.baidu.com:8081/2/index.html
+INFO: 15-11-16 15:08:51: webpage_parser.py:55 * 1106671968 len url: 21
+INFO: 15-11-16 15:08:51: webpage_saver.py:73 * 1106671968 cur url: http://pycm.baidu.com:8081/2/index.html
+INFO: 15-11-16 15:08:51: webpage_saver.py:107 * 1106671968 url: http://pycm.baidu.com:8081/2/index.html
+INFO: 15-11-16 15:08:51: webpage_saver.py:112 * 1106671968 transfer url:http$--pycm.baidu.com$8081-2-index.html
+INFO: 15-11-16 15:08:51: webpage_saver.py:86 * 1106671968 write file...
+INFO: 15-11-16 15:08:52: mini_spider.py:153 * 140489202366176 sleep: 1
+INFO: 15-11-16 15:08:52: thread_pool.py:83 * 140489202366176 have thread finish
+INFO: 15-11-16 15:08:52: url_table.py:53 * 1106671968 sort url list
+INFO: 15-11-16 15:08:52: webpage_crawler.py:39 * 1106671968 start get url:http://pycm.baidu.com:8081/3/page3_1.html
+INFO: 15-11-16 15:08:52: webpage_parser.py:55 * 1106671968 len url: 23
+INFO: 15-11-16 15:08:52: webpage_saver.py:73 * 1106671968 cur url: http://pycm.baidu.com:8081/3/page3_1.html
+INFO: 15-11-16 15:08:52: webpage_saver.py:107 * 1106671968 url: http://pycm.baidu.com:8081/3/page3_1.html
+INFO: 15-11-16 15:08:52: webpage_saver.py:112 * 1106671968 transfer url:http$--pycm.baidu.com$8081-3-page3_1.html
+INFO: 15-11-16 15:08:52: webpage_saver.py:86 * 1106671968 write file...
+INFO: 15-11-16 15:08:53: mini_spider.py:153 * 140489202366176 sleep: 1
+INFO: 15-11-16 15:08:53: thread_pool.py:83 * 140489202366176 have thread finish
+INFO: 15-11-16 15:08:53: url_table.py:53 * 1106671968 sort url list
+INFO: 15-11-16 15:08:53: webpage_crawler.py:39 * 1106671968 start get url:http://pycm.baidu.com:8081/3/page3_4.html
+INFO: 15-11-16 15:08:53: webpage_parser.py:55 * 1106671968 len url: 25
+INFO: 15-11-16 15:08:53: webpage_saver.py:73 * 1106671968 cur url: http://pycm.baidu.com:8081/3/page3_4.html
+INFO: 15-11-16 15:08:53: webpage_saver.py:107 * 1106671968 url: http://pycm.baidu.com:8081/3/page3_4.html
+INFO: 15-11-16 15:08:53: webpage_saver.py:112 * 1106671968 transfer url:http$--pycm.baidu.com$8081-3-page3_4.html
+INFO: 15-11-16 15:08:53: webpage_saver.py:86 * 1106671968 write file...
+INFO: 15-11-16 15:08:54: mini_spider.py:153 * 140489202366176 sleep: 1
+INFO: 15-11-16 15:08:54: thread_pool.py:83 * 140489202366176 have thread finish
+INFO: 15-11-16 15:08:54: url_table.py:53 * 1106671968 sort url list
+INFO: 15-11-16 15:08:54: webpage_crawler.py:39 * 1106671968 start get url:http://pycm.baidu.com:8081/mirror/page1.html
+INFO: 15-11-16 15:08:54: webpage_parser.py:55 * 1106671968 len url: 30
+INFO: 15-11-16 15:08:54: webpage_saver.py:73 * 1106671968 cur url: http://pycm.baidu.com:8081/mirror/page1.html
+INFO: 15-11-16 15:08:54: webpage_saver.py:107 * 1106671968 url: http://pycm.baidu.com:8081/mirror/page1.html
+INFO: 15-11-16 15:08:54: webpage_saver.py:112 * 1106671968 transfer url:http$--pycm.baidu.com$8081-mirror-page1.html
+INFO: 15-11-16 15:08:54: webpage_saver.py:86 * 1106671968 write file...
+INFO: 15-11-16 15:08:55: mini_spider.py:153 * 140489202366176 sleep: 1
+INFO: 15-11-16 15:08:55: thread_pool.py:83 * 140489202366176 have thread finish
+INFO: 15-11-16 15:08:55: url_table.py:53 * 1106671968 sort url list
+INFO: 15-11-16 15:08:55: webpage_crawler.py:39 * 1106671968 start get url:http://pycm.baidu.com:8081/mirror/page2.html
+INFO: 15-11-16 15:08:55: webpage_parser.py:55 * 1106671968 len url: 35
+INFO: 15-11-16 15:08:55: webpage_saver.py:73 * 1106671968 cur url: http://pycm.baidu.com:8081/mirror/page2.html
+INFO: 15-11-16 15:08:55: webpage_saver.py:107 * 1106671968 url: http://pycm.baidu.com:8081/mirror/page2.html
+INFO: 15-11-16 15:08:55: webpage_saver.py:112 * 1106671968 transfer url:http$--pycm.baidu.com$8081-mirror-page2.html
+INFO: 15-11-16 15:08:55: webpage_saver.py:86 * 1106671968 write file...
+INFO: 15-11-16 15:08:56: mini_spider.py:153 * 140489202366176 sleep: 1
+INFO: 15-11-16 15:08:56: thread_pool.py:83 * 140489202366176 have thread finish
+INFO: 15-11-16 15:08:56: url_table.py:53 * 1106671968 sort url list
+INFO: 15-11-16 15:08:56: webpage_crawler.py:39 * 1106671968 start get url:http://pycm.baidu.com:8081/mirror/page3.html
+INFO: 15-11-16 15:08:56: webpage_parser.py:55 * 1106671968 len url: 40
+INFO: 15-11-16 15:08:56: webpage_saver.py:73 * 1106671968 cur url: http://pycm.baidu.com:8081/mirror/page3.html
+INFO: 15-11-16 15:08:56: webpage_saver.py:107 * 1106671968 url: http://pycm.baidu.com:8081/mirror/page3.html
+INFO: 15-11-16 15:08:56: webpage_saver.py:112 * 1106671968 transfer url:http$--pycm.baidu.com$8081-mirror-page3.html
+INFO: 15-11-16 15:08:56: webpage_saver.py:86 * 1106671968 write file...
+INFO: 15-11-16 15:08:57: mini_spider.py:153 * 140489202366176 sleep: 1
+INFO: 15-11-16 15:08:57: thread_pool.py:83 * 140489202366176 have thread finish
+INFO: 15-11-16 15:08:57: url_table.py:53 * 1106671968 sort url list
+INFO: 15-11-16 15:08:57: webpage_crawler.py:39 * 1106671968 start get url:http://pycm.baidu.com:8081/mirror/mirror/index.html
+INFO: 15-11-16 15:08:57: webpage_parser.py:55 * 1106671968 len url: 45
+INFO: 15-11-16 15:08:57: webpage_saver.py:73 * 1106671968 cur url: http://pycm.baidu.com:8081/mirror/mirror/index.html
+INFO: 15-11-16 15:08:57: webpage_saver.py:107 * 1106671968 url: http://pycm.baidu.com:8081/mirror/mirror/index.html
+INFO: 15-11-16 15:08:57: webpage_saver.py:112 * 1106671968 transfer url:http$--pycm.baidu.com$8081-mirror-mirror-index.html
+INFO: 15-11-16 15:08:57: webpage_saver.py:86 * 1106671968 write file...
+INFO: 15-11-16 15:08:58: mini_spider.py:153 * 140489202366176 sleep: 1
+INFO: 15-11-16 15:08:58: thread_pool.py:83 * 140489202366176 have thread finish
+INFO: 15-11-16 15:08:58: url_table.py:53 * 1106671968 sort url list
+INFO: 15-11-16 15:08:58: webpage_crawler.py:39 * 1106671968 start get url:http://pycm.baidu.com:8081/mirror/1/page1_4.html
+INFO: 15-11-16 15:08:58: webpage_parser.py:55 * 1106671968 len url: 50
+INFO: 15-11-16 15:08:58: webpage_saver.py:73 * 1106671968 cur url: http://pycm.baidu.com:8081/mirror/1/page1_4.html
+INFO: 15-11-16 15:08:58: webpage_saver.py:107 * 1106671968 url: http://pycm.baidu.com:8081/mirror/1/page1_4.html
+INFO: 15-11-16 15:08:58: webpage_saver.py:112 * 1106671968 transfer url:http$--pycm.baidu.com$8081-mirror-1-page1_4.html
+INFO: 15-11-16 15:08:58: webpage_saver.py:86 * 1106671968 write file...
+INFO: 15-11-16 15:08:59: mini_spider.py:153 * 140489202366176 sleep: 1
+INFO: 15-11-16 15:08:59: thread_pool.py:83 * 140489202366176 have thread finish
+INFO: 15-11-16 15:08:59: url_table.py:53 * 1106671968 sort url list
+INFO: 15-11-16 15:08:59: webpage_crawler.py:39 * 1106671968 start get url:http://pycm.baidu.com:8081/mirror/1/page1_1.html
+INFO: 15-11-16 15:08:59: webpage_parser.py:55 * 1106671968 len url: 55
+INFO: 15-11-16 15:08:59: webpage_saver.py:73 * 1106671968 cur url: http://pycm.baidu.com:8081/mirror/1/page1_1.html
+INFO: 15-11-16 15:08:59: webpage_saver.py:107 * 1106671968 url: http://pycm.baidu.com:8081/mirror/1/page1_1.html
+INFO: 15-11-16 15:08:59: webpage_saver.py:112 * 1106671968 transfer url:http$--pycm.baidu.com$8081-mirror-1-page1_1.html
+INFO: 15-11-16 15:08:59: webpage_saver.py:86 * 1106671968 write file...
+INFO: 15-11-16 15:09:00: mini_spider.py:153 * 140489202366176 sleep: 1
+INFO: 15-11-16 15:09:00: thread_pool.py:83 * 140489202366176 have thread finish
+INFO: 15-11-16 15:09:00: url_table.py:53 * 1106671968 sort url list
+INFO: 15-11-16 15:09:00: webpage_crawler.py:39 * 1106671968 start get url:http://pycm.baidu.com:8081/mirror/1/page1_2.html
+INFO: 15-11-16 15:09:00: webpage_parser.py:55 * 1106671968 len url: 60
+INFO: 15-11-16 15:09:00: webpage_saver.py:73 * 1106671968 cur url: http://pycm.baidu.com:8081/mirror/1/page1_2.html
+INFO: 15-11-16 15:09:00: webpage_saver.py:107 * 1106671968 url: http://pycm.baidu.com:8081/mirror/1/page1_2.html
+INFO: 15-11-16 15:09:00: webpage_saver.py:112 * 1106671968 transfer url:http$--pycm.baidu.com$8081-mirror-1-page1_2.html
+INFO: 15-11-16 15:09:00: webpage_saver.py:86 * 1106671968 write file...
+INFO: 15-11-16 15:09:01: mini_spider.py:153 * 140489202366176 sleep: 1
+INFO: 15-11-16 15:09:01: thread_pool.py:83 * 140489202366176 have thread finish
+INFO: 15-11-16 15:09:01: url_table.py:53 * 1106671968 sort url list
+INFO: 15-11-16 15:09:01: webpage_crawler.py:39 * 1106671968 start get url:http://pycm.baidu.com:8081/mirror/1/page1_3.html
+INFO: 15-11-16 15:09:01: webpage_parser.py:55 * 1106671968 len url: 65
+INFO: 15-11-16 15:09:01: webpage_saver.py:73 * 1106671968 cur url: http://pycm.baidu.com:8081/mirror/1/page1_3.html
+INFO: 15-11-16 15:09:01: webpage_saver.py:107 * 1106671968 url: http://pycm.baidu.com:8081/mirror/1/page1_3.html
+INFO: 15-11-16 15:09:01: webpage_saver.py:112 * 1106671968 transfer url:http$--pycm.baidu.com$8081-mirror-1-page1_3.html
+INFO: 15-11-16 15:09:01: webpage_saver.py:86 * 1106671968 write file...
+INFO: 15-11-16 15:09:02: mini_spider.py:153 * 140489202366176 sleep: 1
+INFO: 15-11-16 15:09:02: thread_pool.py:83 * 140489202366176 have thread finish
+INFO: 15-11-16 15:09:02: url_table.py:53 * 1106671968 sort url list
+INFO: 15-11-16 15:09:02: webpage_crawler.py:39 * 1106671968 start get url:http://pycm.baidu.com:8081/mirror/page2_1.html
+INFO: 15-11-16 15:09:02: webpage_parser.py:55 * 1106671968 len url: 70
+INFO: 15-11-16 15:09:02: webpage_saver.py:73 * 1106671968 cur url: http://pycm.baidu.com:8081/mirror/page2_1.html
+INFO: 15-11-16 15:09:02: webpage_saver.py:107 * 1106671968 url: http://pycm.baidu.com:8081/mirror/page2_1.html
+INFO: 15-11-16 15:09:02: webpage_saver.py:112 * 1106671968 transfer url:http$--pycm.baidu.com$8081-mirror-page2_1.html
+INFO: 15-11-16 15:09:02: webpage_saver.py:86 * 1106671968 write file...
+INFO: 15-11-16 15:09:03: mini_spider.py:153 * 140489202366176 sleep: 1
+INFO: 15-11-16 15:09:03: thread_pool.py:83 * 140489202366176 have thread finish
+INFO: 15-11-16 15:09:03: url_table.py:53 * 1106671968 sort url list
+INFO: 15-11-16 15:09:03: webpage_crawler.py:39 * 1106671968 start get url:http://pycm.baidu.com:8081/mirror/2/index.html
+INFO: 15-11-16 15:09:03: webpage_parser.py:55 * 1106671968 len url: 75
+INFO: 15-11-16 15:09:03: webpage_saver.py:73 * 1106671968 cur url: http://pycm.baidu.com:8081/mirror/2/index.html
+INFO: 15-11-16 15:09:03: webpage_saver.py:107 * 1106671968 url: http://pycm.baidu.com:8081/mirror/2/index.html
+INFO: 15-11-16 15:09:03: webpage_saver.py:112 * 1106671968 transfer url:http$--pycm.baidu.com$8081-mirror-2-index.html
+INFO: 15-11-16 15:09:03: webpage_saver.py:86 * 1106671968 write file...
+INFO: 15-11-16 15:09:04: mini_spider.py:153 * 140489202366176 sleep: 1
+INFO: 15-11-16 15:09:04: thread_pool.py:83 * 140489202366176 have thread finish
+INFO: 15-11-16 15:09:04: url_table.py:53 * 1106671968 sort url list
+INFO: 15-11-16 15:09:04: webpage_crawler.py:39 * 1106671968 start get url:http://pycm.baidu.com:8081/mirror/3/page3_1.html
+INFO: 15-11-16 15:09:04: webpage_parser.py:55 * 1106671968 len url: 80
+INFO: 15-11-16 15:09:04: webpage_saver.py:73 * 1106671968 cur url: http://pycm.baidu.com:8081/mirror/3/page3_1.html
+INFO: 15-11-16 15:09:04: webpage_saver.py:107 * 1106671968 url: http://pycm.baidu.com:8081/mirror/3/page3_1.html
+INFO: 15-11-16 15:09:04: webpage_saver.py:112 * 1106671968 transfer url:http$--pycm.baidu.com$8081-mirror-3-page3_1.html
+INFO: 15-11-16 15:09:04: webpage_saver.py:86 * 1106671968 write file...
+INFO: 15-11-16 15:09:05: mini_spider.py:153 * 140489202366176 sleep: 1
+INFO: 15-11-16 15:09:05: thread_pool.py:83 * 140489202366176 have thread finish
+INFO: 15-11-16 15:09:05: url_table.py:53 * 1106671968 sort url list
+INFO: 15-11-16 15:09:05: webpage_crawler.py:39 * 1106671968 start get url:http://pycm.baidu.com:8081/mirror/3/page3_4.html
+INFO: 15-11-16 15:09:05: webpage_parser.py:55 * 1106671968 len url: 85
+INFO: 15-11-16 15:09:05: webpage_saver.py:73 * 1106671968 cur url: http://pycm.baidu.com:8081/mirror/3/page3_4.html
+INFO: 15-11-16 15:09:05: webpage_saver.py:107 * 1106671968 url: http://pycm.baidu.com:8081/mirror/3/page3_4.html
+INFO: 15-11-16 15:09:05: webpage_saver.py:112 * 1106671968 transfer url:http$--pycm.baidu.com$8081-mirror-3-page3_4.html
+INFO: 15-11-16 15:09:05: webpage_saver.py:86 * 1106671968 write file...
+INFO: 15-11-16 15:09:06: mini_spider.py:153 * 140489202366176 sleep: 1
+INFO: 15-11-16 15:09:06: thread_pool.py:83 * 140489202366176 have thread finish
+INFO: 15-11-16 15:09:06: mini_spider.py:128 * 140489202366176 finish
+INFO: 15-11-16 15:09:06: mini_spider.py:148 * 140489202366176 spider end
+INFO: 15-11-16 16:48:39: mini_spider.py:38 * 140344224765664 Init Mini_spider
+INFO: 15-11-16 16:48:39: mini_spider.py:137 * 140344224765664 begin to run...
+INFO: 15-11-16 16:48:39: mini_spider.py:46 * 140344224765664 init
+INFO: 15-11-16 16:48:39: mini_spider.py:48 * 140344224765664 read config file:spider.conf
+INFO: 15-11-16 16:48:39: mini_spider.py:67 * 140344224765664 init crawler.
+INFO: 15-11-16 16:48:39: mini_spider.py:70 * 140344224765664 init parser.
+INFO: 15-11-16 16:48:39: mini_spider.py:73 * 140344224765664 init saver.
+INFO: 15-11-16 16:48:39: mini_spider.py:76 * 140344224765664 init thread_pool.
+INFO: 15-11-16 16:48:39: url_table.py:53 * 1096005984 sort url list
+INFO: 15-11-16 16:48:39: webpage_crawler.py:39 * 1096005984 start get url:http://pycm.baidu.com:8081
+INFO: 15-11-16 16:48:39: webpage_parser.py:80 * 1096005984 this is domian url
+INFO: 15-11-16 16:48:39: webpage_parser.py:80 * 1096005984 this is domian url
+INFO: 15-11-16 16:48:39: webpage_parser.py:80 * 1096005984 this is domian url
+INFO: 15-11-16 16:48:39: webpage_parser.py:80 * 1096005984 this is domian url
+INFO: 15-11-16 16:48:39: webpage_parser.py:55 * 1096005984 len url: 5
+INFO: 15-11-16 16:48:39: webpage_saver.py:73 * 1096005984 cur url: http://pycm.baidu.com:8081
+INFO: 15-11-16 16:48:39: webpage_saver.py:107 * 1096005984 url: http://pycm.baidu.com:8081
+INFO: 15-11-16 16:48:39: webpage_saver.py:112 * 1096005984 transfer url:http$--pycm.baidu.com$8081
+INFO: 15-11-16 16:48:39: webpage_saver.py:86 * 1096005984 write file...
+INFO: 15-11-16 16:48:40: mini_spider.py:153 * 140344224765664 sleep: 1
+INFO: 15-11-16 16:48:40: thread_pool.py:83 * 140344224765664 have thread finish
+INFO: 15-11-16 16:48:40: url_table.py:53 * 1096005984 sort url list
+INFO: 15-11-16 16:48:40: webpage_crawler.py:39 * 1096005984 start get url:http://pycm.baidu.com:8081/page1.html
+INFO: 15-11-16 16:48:40: webpage_parser.py:55 * 1096005984 len url: 9
+INFO: 15-11-16 16:48:40: url_table.py:69 * 1096005984 url exits
+INFO: 15-11-16 16:48:40: url_table.py:69 * 1096005984 url exits
+INFO: 15-11-16 16:48:40: url_table.py:69 * 1096005984 url exits
+INFO: 15-11-16 16:48:40: url_table.py:69 * 1096005984 url exits
+INFO: 15-11-16 16:48:40: url_table.py:69 * 1096005984 url exits
+INFO: 15-11-16 16:48:40: webpage_saver.py:73 * 1096005984 cur url: http://pycm.baidu.com:8081/page1.html
+INFO: 15-11-16 16:48:40: webpage_saver.py:107 * 1096005984 url: http://pycm.baidu.com:8081/page1.html
+INFO: 15-11-16 16:48:40: webpage_saver.py:112 * 1096005984 transfer url:http$--pycm.baidu.com$8081-page1.html
+INFO: 15-11-16 16:48:40: webpage_saver.py:86 * 1096005984 write file...
+INFO: 15-11-16 16:48:41: mini_spider.py:153 * 140344224765664 sleep: 1
+INFO: 15-11-16 16:48:41: thread_pool.py:83 * 140344224765664 have thread finish
+INFO: 15-11-16 16:48:41: url_table.py:53 * 1096005984 sort url list
+INFO: 15-11-16 16:48:41: webpage_crawler.py:39 * 1096005984 start get url:http://pycm.baidu.com:8081/page2.html
+INFO: 15-11-16 16:48:41: webpage_parser.py:55 * 1096005984 len url: 11
+INFO: 15-11-16 16:48:41: url_table.py:69 * 1096005984 url exits
+INFO: 15-11-16 16:48:41: url_table.py:69 * 1096005984 url exits
+INFO: 15-11-16 16:48:41: url_table.py:69 * 1096005984 url exits
+INFO: 15-11-16 16:48:41: url_table.py:69 * 1096005984 url exits
+INFO: 15-11-16 16:48:41: url_table.py:69 * 1096005984 url exits
+INFO: 15-11-16 16:48:41: url_table.py:69 * 1096005984 url exits
+INFO: 15-11-16 16:48:41: url_table.py:69 * 1096005984 url exits
+INFO: 15-11-16 16:48:41: url_table.py:69 * 1096005984 url exits
+INFO: 15-11-16 16:48:41: url_table.py:69 * 1096005984 url exits
+INFO: 15-11-16 16:48:41: webpage_saver.py:73 * 1096005984 cur url: http://pycm.baidu.com:8081/page2.html
+INFO: 15-11-16 16:48:41: webpage_saver.py:107 * 1096005984 url: http://pycm.baidu.com:8081/page2.html
+INFO: 15-11-16 16:48:41: webpage_saver.py:112 * 1096005984 transfer url:http$--pycm.baidu.com$8081-page2.html
+INFO: 15-11-16 16:48:41: webpage_saver.py:86 * 1096005984 write file...
+INFO: 15-11-16 16:48:42: mini_spider.py:153 * 140344224765664 sleep: 1
+INFO: 15-11-16 16:48:42: thread_pool.py:83 * 140344224765664 have thread finish
+INFO: 15-11-16 16:48:42: url_table.py:53 * 1096005984 sort url list
+INFO: 15-11-16 16:48:42: webpage_crawler.py:39 * 1096005984 start get url:http://pycm.baidu.com:8081/page3.html
+INFO: 15-11-16 16:48:42: webpage_parser.py:55 * 1096005984 len url: 13
+INFO: 15-11-16 16:48:42: url_table.py:69 * 1096005984 url exits
+INFO: 15-11-16 16:48:42: url_table.py:69 * 1096005984 url exits
+INFO: 15-11-16 16:48:42: url_table.py:69 * 1096005984 url exits
+INFO: 15-11-16 16:48:42: url_table.py:69 * 1096005984 url exits
+INFO: 15-11-16 16:48:42: url_table.py:69 * 1096005984 url exits
+INFO: 15-11-16 16:48:42: url_table.py:69 * 1096005984 url exits
+INFO: 15-11-16 16:48:42: url_table.py:69 * 1096005984 url exits
+INFO: 15-11-16 16:48:42: url_table.py:69 * 1096005984 url exits
+INFO: 15-11-16 16:48:42: url_table.py:69 * 1096005984 url exits
+INFO: 15-11-16 16:48:42: url_table.py:69 * 1096005984 url exits
+INFO: 15-11-16 16:48:42: url_table.py:69 * 1096005984 url exits
+INFO: 15-11-16 16:48:42: webpage_saver.py:73 * 1096005984 cur url: http://pycm.baidu.com:8081/page3.html
+INFO: 15-11-16 16:48:42: webpage_saver.py:107 * 1096005984 url: http://pycm.baidu.com:8081/page3.html
+INFO: 15-11-16 16:48:42: webpage_saver.py:112 * 1096005984 transfer url:http$--pycm.baidu.com$8081-page3.html
+INFO: 15-11-16 16:48:42: webpage_saver.py:86 * 1096005984 write file...
+INFO: 15-11-16 16:48:43: mini_spider.py:153 * 140344224765664 sleep: 1
+INFO: 15-11-16 16:48:43: thread_pool.py:83 * 140344224765664 have thread finish
+INFO: 15-11-16 16:48:43: url_table.py:53 * 1096005984 sort url list
+INFO: 15-11-16 16:48:43: webpage_crawler.py:39 * 1096005984 start get url:http://pycm.baidu.com:8081/mirror/index.html
+INFO: 15-11-16 16:48:43: webpage_parser.py:55 * 1096005984 len url: 18
+INFO: 15-11-16 16:48:43: url_table.py:69 * 1096005984 url exits
+INFO: 15-11-16 16:48:43: url_table.py:69 * 1096005984 url exits
+INFO: 15-11-16 16:48:43: url_table.py:69 * 1096005984 url exits
+INFO: 15-11-16 16:48:43: url_table.py:69 * 1096005984 url exits
+INFO: 15-11-16 16:48:43: url_table.py:69 * 1096005984 url exits
+INFO: 15-11-16 16:48:43: url_table.py:69 * 1096005984 url exits
+INFO: 15-11-16 16:48:43: webpage_saver.py:73 * 1096005984 cur url: http://pycm.baidu.com:8081/mirror/index.html
+INFO: 15-11-16 16:48:43: webpage_saver.py:107 * 1096005984 url: http://pycm.baidu.com:8081/mirror/index.html
+INFO: 15-11-16 16:48:43: webpage_saver.py:112 * 1096005984 transfer url:http$--pycm.baidu.com$8081-mirror-index.html
+INFO: 15-11-16 16:48:43: webpage_saver.py:86 * 1096005984 write file...
+INFO: 15-11-16 16:48:44: mini_spider.py:153 * 140344224765664 sleep: 1
+INFO: 15-11-16 16:48:44: thread_pool.py:83 * 140344224765664 have thread finish
+INFO: 15-11-16 16:48:44: url_table.py:53 * 1096005984 sort url list
+INFO: 15-11-16 16:48:44: webpage_crawler.py:39 * 1096005984 start get url:javascript:location.href="page4.html"
+WARNING: 15-11-16 16:48:44: webpage_crawler.py:44 * 1096005984 url error:javascript:location.href="page4.html" <urlopen error unknown url type: javascript>
+INFO: 15-11-16 16:48:45: mini_spider.py:153 * 140344224765664 sleep: 1
+INFO: 15-11-16 16:48:45: thread_pool.py:83 * 140344224765664 have thread finish
+INFO: 15-11-16 16:48:45: url_table.py:53 * 1096005984 sort url list
+INFO: 15-11-16 16:48:45: webpage_crawler.py:39 * 1096005984 start get url:http://pycm.baidu.com:8081/1/page1_4.html
+WARNING: 15-11-16 16:48:45: webpage_crawler.py:44 * 1096005984 url error:http://pycm.baidu.com:8081/1/page1_4.html HTTP Error 404: Not Found
+INFO: 15-11-16 16:48:46: mini_spider.py:153 * 140344224765664 sleep: 1
+INFO: 15-11-16 16:48:46: thread_pool.py:83 * 140344224765664 have thread finish
+INFO: 15-11-16 16:48:46: url_table.py:53 * 1096005984 sort url list
+INFO: 15-11-16 16:48:46: webpage_crawler.py:39 * 1096005984 start get url:http://pycm.baidu.com:8081/1/page1_1.html
+INFO: 15-11-16 16:48:46: webpage_parser.py:55 * 1096005984 len url: 18
+INFO: 15-11-16 16:48:46: webpage_saver.py:73 * 1096005984 cur url: http://pycm.baidu.com:8081/1/page1_1.html
+INFO: 15-11-16 16:48:46: webpage_saver.py:107 * 1096005984 url: http://pycm.baidu.com:8081/1/page1_1.html
+INFO: 15-11-16 16:48:46: webpage_saver.py:112 * 1096005984 transfer url:http$--pycm.baidu.com$8081-1-page1_1.html
+INFO: 15-11-16 16:48:46: webpage_saver.py:86 * 1096005984 write file...
+INFO: 15-11-16 16:48:47: mini_spider.py:153 * 140344224765664 sleep: 1
+INFO: 15-11-16 16:48:47: thread_pool.py:83 * 140344224765664 have thread finish
+INFO: 15-11-16 16:48:47: url_table.py:53 * 1096005984 sort url list
+INFO: 15-11-16 16:48:47: webpage_crawler.py:39 * 1096005984 start get url:http://pycm.baidu.com:8081/1/page1_2.html
+INFO: 15-11-16 16:48:47: webpage_parser.py:55 * 1096005984 len url: 18
+INFO: 15-11-16 16:48:47: webpage_saver.py:73 * 1096005984 cur url: http://pycm.baidu.com:8081/1/page1_2.html
+INFO: 15-11-16 16:48:47: webpage_saver.py:107 * 1096005984 url: http://pycm.baidu.com:8081/1/page1_2.html
+INFO: 15-11-16 16:48:47: webpage_saver.py:112 * 1096005984 transfer url:http$--pycm.baidu.com$8081-1-page1_2.html
+INFO: 15-11-16 16:48:47: webpage_saver.py:86 * 1096005984 write file...
+INFO: 15-11-16 16:48:48: mini_spider.py:153 * 140344224765664 sleep: 1
+INFO: 15-11-16 16:48:48: thread_pool.py:83 * 140344224765664 have thread finish
+INFO: 15-11-16 16:48:48: url_table.py:53 * 1096005984 sort url list
+INFO: 15-11-16 16:48:48: webpage_crawler.py:39 * 1096005984 start get url:http://pycm.baidu.com:8081/1/page1_3.html
+WARNING: 15-11-16 16:48:48: webpage_crawler.py:44 * 1096005984 url error:http://pycm.baidu.com:8081/1/page1_3.html HTTP Error 404: Not Found
+INFO: 15-11-16 16:48:49: mini_spider.py:153 * 140344224765664 sleep: 1
+INFO: 15-11-16 16:48:49: thread_pool.py:83 * 140344224765664 have thread finish
+INFO: 15-11-16 16:48:49: url_table.py:53 * 1096005984 sort url list
+INFO: 15-11-16 16:48:49: webpage_crawler.py:39 * 1096005984 start get url:http://pycm.baidu.com:8081/page2_1.html
+INFO: 15-11-16 16:48:49: webpage_parser.py:55 * 1096005984 len url: 19
+INFO: 15-11-16 16:48:49: webpage_saver.py:73 * 1096005984 cur url: http://pycm.baidu.com:8081/page2_1.html
+INFO: 15-11-16 16:48:49: webpage_saver.py:107 * 1096005984 url: http://pycm.baidu.com:8081/page2_1.html
+INFO: 15-11-16 16:48:49: webpage_saver.py:112 * 1096005984 transfer url:http$--pycm.baidu.com$8081-page2_1.html
+INFO: 15-11-16 16:48:49: webpage_saver.py:86 * 1096005984 write file...
+INFO: 15-11-16 16:48:50: mini_spider.py:153 * 140344224765664 sleep: 1
+INFO: 15-11-16 16:48:50: thread_pool.py:83 * 140344224765664 have thread finish
+INFO: 15-11-16 16:48:50: url_table.py:53 * 1096005984 sort url list
+INFO: 15-11-16 16:48:50: webpage_crawler.py:39 * 1096005984 start get url:http://pycm.baidu.com:8081/2/index.html
+INFO: 15-11-16 16:48:50: webpage_parser.py:55 * 1096005984 len url: 21
+INFO: 15-11-16 16:48:50: webpage_saver.py:73 * 1096005984 cur url: http://pycm.baidu.com:8081/2/index.html
+INFO: 15-11-16 16:48:50: webpage_saver.py:107 * 1096005984 url: http://pycm.baidu.com:8081/2/index.html
+INFO: 15-11-16 16:48:50: webpage_saver.py:112 * 1096005984 transfer url:http$--pycm.baidu.com$8081-2-index.html
+INFO: 15-11-16 16:48:50: webpage_saver.py:86 * 1096005984 write file...
+INFO: 15-11-16 16:48:51: mini_spider.py:153 * 140344224765664 sleep: 1
+INFO: 15-11-16 16:48:51: thread_pool.py:83 * 140344224765664 have thread finish
+INFO: 15-11-16 16:48:51: url_table.py:53 * 1096005984 sort url list
+INFO: 15-11-16 16:48:51: webpage_crawler.py:39 * 1096005984 start get url:http://pycm.baidu.com:8081/3/page3_1.html
+INFO: 15-11-16 16:48:51: webpage_parser.py:55 * 1096005984 len url: 23
+INFO: 15-11-16 16:48:51: webpage_saver.py:73 * 1096005984 cur url: http://pycm.baidu.com:8081/3/page3_1.html
+INFO: 15-11-16 16:48:51: webpage_saver.py:107 * 1096005984 url: http://pycm.baidu.com:8081/3/page3_1.html
+INFO: 15-11-16 16:48:51: webpage_saver.py:112 * 1096005984 transfer url:http$--pycm.baidu.com$8081-3-page3_1.html
+INFO: 15-11-16 16:48:51: webpage_saver.py:86 * 1096005984 write file...
+INFO: 15-11-16 16:48:52: mini_spider.py:153 * 140344224765664 sleep: 1
+INFO: 15-11-16 16:48:52: thread_pool.py:83 * 140344224765664 have thread finish
+INFO: 15-11-16 16:48:52: url_table.py:53 * 1096005984 sort url list
+INFO: 15-11-16 16:48:52: webpage_crawler.py:39 * 1096005984 start get url:http://pycm.baidu.com:8081/3/page3_4.html
+INFO: 15-11-16 16:48:52: webpage_parser.py:55 * 1096005984 len url: 25
+INFO: 15-11-16 16:48:52: webpage_saver.py:73 * 1096005984 cur url: http://pycm.baidu.com:8081/3/page3_4.html
+INFO: 15-11-16 16:48:52: webpage_saver.py:107 * 1096005984 url: http://pycm.baidu.com:8081/3/page3_4.html
+INFO: 15-11-16 16:48:52: webpage_saver.py:112 * 1096005984 transfer url:http$--pycm.baidu.com$8081-3-page3_4.html
+INFO: 15-11-16 16:48:52: webpage_saver.py:86 * 1096005984 write file...
+INFO: 15-11-16 16:48:53: mini_spider.py:153 * 140344224765664 sleep: 1
+INFO: 15-11-16 16:48:53: thread_pool.py:83 * 140344224765664 have thread finish
+INFO: 15-11-16 16:48:53: url_table.py:53 * 1096005984 sort url list
+INFO: 15-11-16 16:48:53: webpage_crawler.py:39 * 1096005984 start get url:http://pycm.baidu.com:8081/mirror/page1.html
+INFO: 15-11-16 16:48:53: webpage_parser.py:55 * 1096005984 len url: 30
+INFO: 15-11-16 16:48:53: webpage_saver.py:73 * 1096005984 cur url: http://pycm.baidu.com:8081/mirror/page1.html
+INFO: 15-11-16 16:48:53: webpage_saver.py:107 * 1096005984 url: http://pycm.baidu.com:8081/mirror/page1.html
+INFO: 15-11-16 16:48:53: webpage_saver.py:112 * 1096005984 transfer url:http$--pycm.baidu.com$8081-mirror-page1.html
+INFO: 15-11-16 16:48:53: webpage_saver.py:86 * 1096005984 write file...
+INFO: 15-11-16 16:48:54: mini_spider.py:153 * 140344224765664 sleep: 1
+INFO: 15-11-16 16:48:54: thread_pool.py:83 * 140344224765664 have thread finish
+INFO: 15-11-16 16:48:54: url_table.py:53 * 1096005984 sort url list
+INFO: 15-11-16 16:48:54: webpage_crawler.py:39 * 1096005984 start get url:http://pycm.baidu.com:8081/mirror/page2.html
+INFO: 15-11-16 16:48:54: webpage_parser.py:55 * 1096005984 len url: 35
+INFO: 15-11-16 16:48:54: webpage_saver.py:73 * 1096005984 cur url: http://pycm.baidu.com:8081/mirror/page2.html
+INFO: 15-11-16 16:48:54: webpage_saver.py:107 * 1096005984 url: http://pycm.baidu.com:8081/mirror/page2.html
+INFO: 15-11-16 16:48:54: webpage_saver.py:112 * 1096005984 transfer url:http$--pycm.baidu.com$8081-mirror-page2.html
+INFO: 15-11-16 16:48:54: webpage_saver.py:86 * 1096005984 write file...
+INFO: 15-11-16 16:48:55: mini_spider.py:153 * 140344224765664 sleep: 1
+INFO: 15-11-16 16:48:55: thread_pool.py:83 * 140344224765664 have thread finish
+INFO: 15-11-16 16:48:55: url_table.py:53 * 1096005984 sort url list
+INFO: 15-11-16 16:48:55: webpage_crawler.py:39 * 1096005984 start get url:http://pycm.baidu.com:8081/mirror/page3.html
+INFO: 15-11-16 16:48:55: webpage_parser.py:55 * 1096005984 len url: 40
+INFO: 15-11-16 16:48:55: webpage_saver.py:73 * 1096005984 cur url: http://pycm.baidu.com:8081/mirror/page3.html
+INFO: 15-11-16 16:48:55: webpage_saver.py:107 * 1096005984 url: http://pycm.baidu.com:8081/mirror/page3.html
+INFO: 15-11-16 16:48:55: webpage_saver.py:112 * 1096005984 transfer url:http$--pycm.baidu.com$8081-mirror-page3.html
+INFO: 15-11-16 16:48:55: webpage_saver.py:86 * 1096005984 write file...
+INFO: 15-11-16 16:48:56: mini_spider.py:153 * 140344224765664 sleep: 1
+INFO: 15-11-16 16:48:56: thread_pool.py:83 * 140344224765664 have thread finish
+INFO: 15-11-16 16:48:56: url_table.py:53 * 1096005984 sort url list
+INFO: 15-11-16 16:48:56: webpage_crawler.py:39 * 1096005984 start get url:http://pycm.baidu.com:8081/mirror/mirror/index.html
+INFO: 15-11-16 16:48:56: webpage_parser.py:55 * 1096005984 len url: 45
+INFO: 15-11-16 16:48:56: webpage_saver.py:73 * 1096005984 cur url: http://pycm.baidu.com:8081/mirror/mirror/index.html
+INFO: 15-11-16 16:48:56: webpage_saver.py:107 * 1096005984 url: http://pycm.baidu.com:8081/mirror/mirror/index.html
+INFO: 15-11-16 16:48:56: webpage_saver.py:112 * 1096005984 transfer url:http$--pycm.baidu.com$8081-mirror-mirror-index.html
+INFO: 15-11-16 16:48:56: webpage_saver.py:86 * 1096005984 write file...
+INFO: 15-11-16 16:48:57: mini_spider.py:153 * 140344224765664 sleep: 1
+INFO: 15-11-16 16:48:57: thread_pool.py:83 * 140344224765664 have thread finish
+INFO: 15-11-16 16:48:57: url_table.py:53 * 1096005984 sort url list
+INFO: 15-11-16 16:48:57: webpage_crawler.py:39 * 1096005984 start get url:http://pycm.baidu.com:8081/mirror/1/page1_4.html
+INFO: 15-11-16 16:48:57: webpage_parser.py:55 * 1096005984 len url: 50
+INFO: 15-11-16 16:48:57: webpage_saver.py:73 * 1096005984 cur url: http://pycm.baidu.com:8081/mirror/1/page1_4.html
+INFO: 15-11-16 16:48:57: webpage_saver.py:107 * 1096005984 url: http://pycm.baidu.com:8081/mirror/1/page1_4.html
+INFO: 15-11-16 16:48:57: webpage_saver.py:112 * 1096005984 transfer url:http$--pycm.baidu.com$8081-mirror-1-page1_4.html
+INFO: 15-11-16 16:48:57: webpage_saver.py:86 * 1096005984 write file...
+INFO: 15-11-16 16:48:58: mini_spider.py:153 * 140344224765664 sleep: 1
+INFO: 15-11-16 16:48:58: thread_pool.py:83 * 140344224765664 have thread finish
+INFO: 15-11-16 16:48:58: url_table.py:53 * 1096005984 sort url list
+INFO: 15-11-16 16:48:58: webpage_crawler.py:39 * 1096005984 start get url:http://pycm.baidu.com:8081/mirror/1/page1_1.html
+INFO: 15-11-16 16:48:58: webpage_parser.py:55 * 1096005984 len url: 55
+INFO: 15-11-16 16:48:58: webpage_saver.py:73 * 1096005984 cur url: http://pycm.baidu.com:8081/mirror/1/page1_1.html
+INFO: 15-11-16 16:48:58: webpage_saver.py:107 * 1096005984 url: http://pycm.baidu.com:8081/mirror/1/page1_1.html
+INFO: 15-11-16 16:48:58: webpage_saver.py:112 * 1096005984 transfer url:http$--pycm.baidu.com$8081-mirror-1-page1_1.html
+INFO: 15-11-16 16:48:58: webpage_saver.py:86 * 1096005984 write file...
+INFO: 15-11-16 16:48:59: mini_spider.py:153 * 140344224765664 sleep: 1
+INFO: 15-11-16 16:48:59: thread_pool.py:83 * 140344224765664 have thread finish
+INFO: 15-11-16 16:48:59: url_table.py:53 * 1096005984 sort url list
+INFO: 15-11-16 16:48:59: webpage_crawler.py:39 * 1096005984 start get url:http://pycm.baidu.com:8081/mirror/1/page1_2.html
+INFO: 15-11-16 16:48:59: webpage_parser.py:55 * 1096005984 len url: 60
+INFO: 15-11-16 16:48:59: webpage_saver.py:73 * 1096005984 cur url: http://pycm.baidu.com:8081/mirror/1/page1_2.html
+INFO: 15-11-16 16:48:59: webpage_saver.py:107 * 1096005984 url: http://pycm.baidu.com:8081/mirror/1/page1_2.html
+INFO: 15-11-16 16:48:59: webpage_saver.py:112 * 1096005984 transfer url:http$--pycm.baidu.com$8081-mirror-1-page1_2.html
+INFO: 15-11-16 16:48:59: webpage_saver.py:86 * 1096005984 write file...
+INFO: 15-11-16 16:49:00: mini_spider.py:153 * 140344224765664 sleep: 1
+INFO: 15-11-16 16:49:00: thread_pool.py:83 * 140344224765664 have thread finish
+INFO: 15-11-16 16:49:00: url_table.py:53 * 1096005984 sort url list
+INFO: 15-11-16 16:49:00: webpage_crawler.py:39 * 1096005984 start get url:http://pycm.baidu.com:8081/mirror/1/page1_3.html
+INFO: 15-11-16 16:49:00: webpage_parser.py:55 * 1096005984 len url: 65
+INFO: 15-11-16 16:49:00: webpage_saver.py:73 * 1096005984 cur url: http://pycm.baidu.com:8081/mirror/1/page1_3.html
+INFO: 15-11-16 16:49:00: webpage_saver.py:107 * 1096005984 url: http://pycm.baidu.com:8081/mirror/1/page1_3.html
+INFO: 15-11-16 16:49:00: webpage_saver.py:112 * 1096005984 transfer url:http$--pycm.baidu.com$8081-mirror-1-page1_3.html
+INFO: 15-11-16 16:49:00: webpage_saver.py:86 * 1096005984 write file...
+INFO: 15-11-16 16:49:01: mini_spider.py:153 * 140344224765664 sleep: 1
+INFO: 15-11-16 16:49:01: thread_pool.py:83 * 140344224765664 have thread finish
+INFO: 15-11-16 16:49:01: url_table.py:53 * 1096005984 sort url list
+INFO: 15-11-16 16:49:01: webpage_crawler.py:39 * 1096005984 start get url:http://pycm.baidu.com:8081/mirror/page2_1.html
+INFO: 15-11-16 16:49:01: webpage_parser.py:55 * 1096005984 len url: 70
+INFO: 15-11-16 16:49:01: webpage_saver.py:73 * 1096005984 cur url: http://pycm.baidu.com:8081/mirror/page2_1.html
+INFO: 15-11-16 16:49:01: webpage_saver.py:107 * 1096005984 url: http://pycm.baidu.com:8081/mirror/page2_1.html
+INFO: 15-11-16 16:49:01: webpage_saver.py:112 * 1096005984 transfer url:http$--pycm.baidu.com$8081-mirror-page2_1.html
+INFO: 15-11-16 16:49:01: webpage_saver.py:86 * 1096005984 write file...
+INFO: 15-11-16 16:49:02: mini_spider.py:153 * 140344224765664 sleep: 1
+INFO: 15-11-16 16:49:02: thread_pool.py:83 * 140344224765664 have thread finish
+INFO: 15-11-16 16:49:02: url_table.py:53 * 1096005984 sort url list
+INFO: 15-11-16 16:49:02: webpage_crawler.py:39 * 1096005984 start get url:http://pycm.baidu.com:8081/mirror/2/index.html
+INFO: 15-11-16 16:49:02: webpage_parser.py:55 * 1096005984 len url: 75
+INFO: 15-11-16 16:49:02: webpage_saver.py:73 * 1096005984 cur url: http://pycm.baidu.com:8081/mirror/2/index.html
+INFO: 15-11-16 16:49:02: webpage_saver.py:107 * 1096005984 url: http://pycm.baidu.com:8081/mirror/2/index.html
+INFO: 15-11-16 16:49:02: webpage_saver.py:112 * 1096005984 transfer url:http$--pycm.baidu.com$8081-mirror-2-index.html
+INFO: 15-11-16 16:49:02: webpage_saver.py:86 * 1096005984 write file...
+INFO: 15-11-16 16:49:03: mini_spider.py:153 * 140344224765664 sleep: 1
+INFO: 15-11-16 16:49:03: thread_pool.py:83 * 140344224765664 have thread finish
+INFO: 15-11-16 16:49:03: url_table.py:53 * 1096005984 sort url list
+INFO: 15-11-16 16:49:03: webpage_crawler.py:39 * 1096005984 start get url:http://pycm.baidu.com:8081/mirror/3/page3_1.html
+INFO: 15-11-16 16:49:03: webpage_parser.py:55 * 1096005984 len url: 80
+INFO: 15-11-16 16:49:03: webpage_saver.py:73 * 1096005984 cur url: http://pycm.baidu.com:8081/mirror/3/page3_1.html
+INFO: 15-11-16 16:49:03: webpage_saver.py:107 * 1096005984 url: http://pycm.baidu.com:8081/mirror/3/page3_1.html
+INFO: 15-11-16 16:49:03: webpage_saver.py:112 * 1096005984 transfer url:http$--pycm.baidu.com$8081-mirror-3-page3_1.html
+INFO: 15-11-16 16:49:03: webpage_saver.py:86 * 1096005984 write file...
+INFO: 15-11-16 16:49:04: mini_spider.py:153 * 140344224765664 sleep: 1
+INFO: 15-11-16 16:49:04: thread_pool.py:83 * 140344224765664 have thread finish
+INFO: 15-11-16 16:49:04: url_table.py:53 * 1096005984 sort url list
+INFO: 15-11-16 16:49:04: webpage_crawler.py:39 * 1096005984 start get url:http://pycm.baidu.com:8081/mirror/3/page3_4.html
+INFO: 15-11-16 16:49:04: webpage_parser.py:55 * 1096005984 len url: 85
+INFO: 15-11-16 16:49:04: webpage_saver.py:73 * 1096005984 cur url: http://pycm.baidu.com:8081/mirror/3/page3_4.html
+INFO: 15-11-16 16:49:04: webpage_saver.py:107 * 1096005984 url: http://pycm.baidu.com:8081/mirror/3/page3_4.html
+INFO: 15-11-16 16:49:04: webpage_saver.py:112 * 1096005984 transfer url:http$--pycm.baidu.com$8081-mirror-3-page3_4.html
+INFO: 15-11-16 16:49:04: webpage_saver.py:86 * 1096005984 write file...
+INFO: 15-11-16 16:49:05: mini_spider.py:153 * 140344224765664 sleep: 1
+INFO: 15-11-16 16:49:05: thread_pool.py:83 * 140344224765664 have thread finish
+INFO: 15-11-16 16:49:05: mini_spider.py:128 * 140344224765664 finish
+INFO: 15-11-16 16:49:05: mini_spider.py:148 * 140344224765664 spider end

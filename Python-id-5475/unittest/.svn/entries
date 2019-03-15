@@ -1,0 +1,70 @@
+10
+
+dir
+0
+https://svn.baidu.com/goodcoder/trunk/zhangyunjiang/Python-id-5475/unittest
+https://svn.baidu.com/goodcoder
+add
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+688347a3-1a7e-4d08-b7af-20cad322083a
+
+test_webpage_crawler.py
+file
+
+
+
+add
+
+test_url_table.py
+file
+
+
+
+add
+
+test_webpage_saver.py
+file
+
+
+
+add
+
+mini_spider_test.py
+file
+
+
+
+add
+
+spider.conf
+file
+
+
+
+add
+
+test_webpage_parser.py
+file
+
+
+
+add
+

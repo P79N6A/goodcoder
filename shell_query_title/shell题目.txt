@@ -1,0 +1,64 @@
+query-title匹配【来自PS CodeMaster】
+获取远程querylist，并在大规模url-title数据中匹配，筛选出精确匹配query次数最多的top100 site及其命中次数。
+query和title匹配的定义：query和title分别切词后，query的term序列，在title的term序列都能命中，称为query和title精确匹配：
+query是“新浪在线”，title是“百度在线网络技术(北京)有限公司”，“新浪”这个term在title中没有，因此不算title匹配上了query。
+query和title匹配时不能产生边界混淆，比如：query是“国航"，title是”美国航空“，“国航”刚好位于切词边界，导致转义，因此也不能算精确匹配。使用切词工具可以避免这种问题的发生。
+title中包含query里面的每一个词，才算精确匹配：query是“百度有限公司”，title是“百度在线网络技术(北京)有限公司”，这个就算精确匹配了。
+注意精确匹配与词出现的顺序无关：如果query是“有限公司百度”，title是“百度在线网络技术(北京)有限公司”，这个也算精确匹配。
+注意site命中query的个数是site中每个url命中query的个数之和，而每个url的title可能命中多个query，而query可能出现多次，site命中数=∑（site中url的title命中query数*query频次）。
+程序运行：
+sh -x query_title_match.sh
+配置文件conf_query_title_match.sh，关键配置项如下：
+# 测试数据url-title文件位置
+URL_TITLE_PATH="ftp://cp01-qa-junheng2-qa160.cp01.baidu.com/home/work/maj/cm-shell/test-data/url-title/part-*"
+# querylist文件位置
+QUERY_LIST_PATH="ftp://cp01-qa-junheng2-qa160.cp01.baidu.com/home/work/maj/cm-shell/test-data/query-set/"
+QUERY_LIST_NAME="query_set_s1_25000.txt"
+QUERY_LIST_MD5="query_set_s1_25000.txt.md5"
+# 输出数据文件位置
+OUTPUT_DATA_PATH="输出数据文件位置"
+querylist文件每行一个query，例如：
+百度 河南有色金属 管理和专业技术岗位工作人员 广西梧州市审计局
+url-title文件每行一个url和title，以tab间隔（title中无空格和tab）例如：
+http://www.horsehr.com/shiyedanwei/news/186121.html 河南有色金属地质矿产2011事业单位招聘-北京事业单位招聘信息-毕业生找工作,上千里马校园网
+http://www.horsehr.com/shiyedanwei/news/186179.html 中央农业广播电视学校招聘12名编制外聘用制专业人才公告-北京事业单位招聘信息-毕业生找工作,上千里马校园?
+http://www.horsehr.com/shiyedanwei/news/191916.html 广东省深圳光明新区事业单位2011年10月公开招考职员公告教师招聘-事业单位招聘信息-毕业生找工作,上千里马?
+http://www.horsehr.com/shiyedanwei/news/192756.html 深圳市罗湖区区属事业单位2011年11月公开招考64名管理和专业技术岗位工作人员公告-广东省事业单位招聘信息-
+http://www.horsehr.com/shiyedanwei/news/197682.html 泰来县公开招聘记者、制作人员公告-事业单位招聘信息-毕业生找工作,上千里马校园网
+http://www.horsehr.com/shiyedanwei/news/221930.html 2012年常州溧阳市公开招聘事业单位工作人员简章-江苏省事业单位招聘信息-毕业生找工作,上千里马校园网<
+htt://www.horsehr.com/shiyedanwei/news/223469.html 2012年下半年南京市江宁区所属事业单位招聘简章-南京事业单位招聘信息-毕业生找工作,上千里马校园网
+http://www.horsehr.com/shiyedanwei/news/224768.html 学生综合素质家长评语-事业单位招聘信息-毕业生找工作,上千里马校园网
+http://www.horsehr.com/shiyedanwei/news/230424.html 江门市江海区机关单位招聘工作人员公告-广东省事业单位招聘信息-毕业生找工作,上千里马校园网
+http://www.horsehr.com/shiyedanwei/news/233115.html 广西梧州市审计局聘用2人20日报名截止-梧州事业单位招聘信息-毕业生找工作,上千里马校园网
+输出数据格式：
+news.sina.com.cn 10000
+www.baidu.com 2000
+www.sohu.com 2000
+t.weibo.com 1999
+要求和注意事项：
+需要支持命令行参数处理。具体包含：-h(帮助)、-v(版本)
+由于querylist可能发生变化，所以querylist要从远程获取，并完成md5校验。
+由于query和title主要为汉字，所以要进行切词之后才能匹配，切词工具参考提示。
+由于url-title数据规模较大，可以使用hadoop集群计算来完成此任务，可使用hadoop fs -put命令上传url-title列表数据。
+如果使用map reduce，则map和reduce脚本要能够独立支持单元测试，并给出测试用例。
+站点名为http://sitename/中的sitename。
+注意query中可能有tab，query的总个数小于3万。
+请用尽量少的map-reduce轮次完成此任务。
+除了切词工具外，必须全部以shell脚本完成此任务。（可包含awk）
+提示(下面的命令可能对你完成测试题有帮助)：
+切词工具：（华泉提供）
+切词的二进制工具（仅接受gbk编码）：
+ftp://cq01-antispam-test01.cq01.baidu.com/home/work/shell_test/seg_basic
+切词辅助配置：ftp://cq01-antispam-test01.cq01.baidu.com/home/work/shell_test/puncwords_dict.txt
+切词词典（请上传至hadoop）：ftp://cq01-antispam-test01.cq01.baidu.com/home/work/shell_test/worddict.tar.gz
+用法：（注意：seg_basic为特殊制造的工具，仅为本练习题所使用，因此将配置文件和配置词典的路径都限制死了，本质上是降低大家搭建和调试程序的环境成本。）
+1）【必须】在hadoop任务参数中，指定切词词典位置，例如 -cacheArchive "/app/ps/rank/team/worddict/worddict.tar.gz#worddict"
+2）【必须】在hadoop任务参数中，指定上传切词工具，例如：-file "/home/work/myname/seg_basic"
+3）【必须】在hadoop任务参数中，指定上传切词工具辅助配置，例如：-file "/home/work/myname/puncwords_dict.txt"
+4）【必须】在map或者red脚本中, 使用切词工具（切词工具 seg_basic 只接受长度小于1024长度的字符串）： chmod a+x ./seg_basic
+输入：stdin，每行一个字符串
+输出：stdout，切词结果，格式 "原始内容<tab>term1,term2,term3,...,termN"
+echo "这是一个标题"$'\t'"www.baidu.com" | ./seg_basic 输出：这是一个标题[tab符号]www.baidu.com[tab符号]这,是,一,个,标题,
+shell：getopt
+hadoop：cacheArchive，使用上传到hdfs的数据
+iconv：linux下的编码转换工具
